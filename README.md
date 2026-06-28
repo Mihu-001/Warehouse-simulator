@@ -1,4 +1,4 @@
-# 🏭 Amazon Smart Warehouse Simulator
+# 🏭 Warehouse Simulator
 
 Simulador de almacén inteligente con robots autónomos que usan algoritmos de búsqueda de caminos (A*, Dijkstra, BFS) para recoger y entregar productos.
 
