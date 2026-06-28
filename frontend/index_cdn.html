@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="https://img.icons8.com/color/48/amazon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Smart Warehouse Simulator (CDN Run)</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            warehouse: {
+              bg: '#090b0f',
+              panel: '#11131a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- React 18 & ReactDOM 18 -->
+  <script src="https://unpkg.com/react@18.2.0/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Babel Standalone for JSX compilation -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #090b0f;
+      color: #ffffff;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      overflow: hidden;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body class="overflow-hidden">
+  <div id="root"></div>
+
+  <!-- Run React & components via Babel JSX compilation -->
+  <script type="text/babel">
+    const { useState, useEffect, useRef, useCallback, useMemo } = React;
+
+    // --- UTILS: colors.js ---
+    const CELL_COLORS = {
+      0: "#1e2130",       // EMPTY — walkway
+      1: "#1a4a7a",       // RACK_TC — cold zone rack
+      2: "#7a4a1a",       // RACK_DRY — dry zone rack
+      3: "#0f4a3a",       // DOCK_LOAD_TC
+      4: "#4a3a0f",       // DOCK_LOAD_DRY
+      5: "#1a3a5a",       // DOCK_UNLOAD_TC
+      6: "#5a3a1a",       // DOCK_UNLOAD_DRY
+      7: "#2a2a3a",       // STAGING
+      8: "#0a0a0f",       // WALL
+    };
+
+    const ROBOT_COLORS = {
+      IDLE:               "#4ade80",   // Green
+      MOVING_TO_PRODUCT:  "#facc15",   // Yellow
+      PICKING:            "#fb923c",   // Orange
+      MOVING_TO_DOCK:     "#f87171",   // Red
+      RETURNING:          "#94a3b8",   // Light gray
+    };
+
+    const PATH_COLORS = {
+      astar:    "#3b82f6",   // Blue
+      dijkstra: "#8b5cf6",   // Purple
+      bfs:      "#10b981",   // Green
+    };
+
+    // --- UTILS: gridHelpers.js ---
+    function getRackIdAt(row, col, cellType) {
+      if (cellType === 1) return `TC-R${row}-C${col}`;
+      if (cellType === 2) return `DRY-R${row}-C${col}`;
+      return null;
+    }
+    function pxToGrid(pxVal, cellSize) {
+      return Math.floor(pxVal / cellSize);
+    }
+
+    // --- HOOK: useWebSocket.js ---
+    function useWebSocket(url) {
+      const [state, setState] = useState(null);
+      const [status, setStatus] = useState("DISCONNECTED");
+      const wsRef = useRef(null);
+      const reconnectTimeoutRef = useRef(null);
+
+      const connect = useCallback(() => {
+        if (wsRef.current && (wsRef.current.readyState === WebSocket.OPEN || wsRef.current.readyState === WebSocket.CONNECTING)) {
+          return;
+        }
+
+        setStatus("CONNECTING");
+        const targetUrl = url || `ws://${window.location.hostname}:8000/ws`;
+        const socket = new WebSocket(targetUrl);
+        wsRef.current = socket;
+
+        socket.onopen = () => {
+          setStatus("CONNECTED");
+          console.log("WebSocket connected successfully.");
+        };
+
+        socket.onmessage = (event) => {
+          try {
+            const data = JSON.parse(event.data);
+            setState(data);
+          } catch (err) {
+            console.error("Parse error:", err);
+          }
+        };
+
+        socket.onclose = () => {
+          setStatus("DISCONNECTED");
+          reconnectTimeoutRef.current = setTimeout(() => {
+            connect();
+          }, 3000);
+        };
+
+        socket.onerror = () => {
+          socket.close();
+        };
+      }, [url]);
+
+      useEffect(() => {
+        connect();
+        return () => {
+          if (wsRef.current) wsRef.current.close();
+          if (reconnectTimeoutRef.current) clearTimeout(reconnectTimeoutRef.current);
+        };
+      }, [connect]);
+
+      const sendMessage = useCallback((msg) => {
+        if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+          wsRef.current.send(JSON.stringify(msg));
+        }
+      }, []);
+
+      return { state, status, sendMessage };
+    }
+
+    // --- HOOK: useSimulation.js ---
+    function useSimulation(wsState) {
+      return useMemo(() => {
+        if (!wsState) {
+          return {
+            grid: [], robots: [], stats: {
+              orders_completed: 0, total_distance: 0, nodes_explored: 0, avg_pick_time: 0, active_robots: 0, algorithm: "astar",
+              comparison: {
+                astar: { avg_nodes: 0, avg_time_ms: 0, runs: 0 },
+                dijkstra: { avg_nodes: 0, avg_time_ms: 0, runs: 0 },
+                bfs: { avg_nodes: 0, avg_time_ms: 0, runs: 0 }
+              }
+            },
+            events: ["Conectando al servidor backend..."],
+            docks: {},
+            rackInventories: {}
+          };
+        }
+        return {
+          grid: wsState.grid || [],
+          robots: wsState.robots || [],
+          stats: wsState.stats || {},
+          events: wsState.events || [],
+          docks: wsState.docks || {},
+          rackInventories: wsState.rack_inventories || {}
+        };
+      }, [wsState]);
+    }
+
+    // --- HOOK: useCanvasRenderer.js ---
+    function useCanvasRenderer(canvasRef, drawFn, deps = []) {
+      const drawFnRef = useRef(drawFn);
+      useEffect(() => {
+        drawFnRef.current = drawFn;
+      }, [drawFn]);
+
+      useEffect(() => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        let animationFrameId;
+        const renderLoop = () => {
+          if (drawFnRef.current) drawFnRef.current();
+          animationFrameId = requestAnimationFrame(renderLoop);
+        };
+        renderLoop();
+        return () => cancelAnimationFrame(animationFrameId);
+      }, deps);
+    }
+
+    // --- COMPONENT: WarehouseCanvas.jsx ---
+    function WarehouseCanvas({ grid, robots, stats, rackInventories, docks, onRackClick, onRobotCancel }) {
+      const canvasRef = useRef(null);
+      const CELL = 16;
+      const [tooltip, setTooltip] = useState({ visible: false, x: 0, y: 0, type: null, data: null });
+
+      useCanvasRenderer(canvasRef, () => {
+        const canvas = canvasRef.current;
+        if (!canvas || grid.length === 0) return;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // 1. Draw Grid
+        for (let r = 0; r < grid.length; r++) {
+          for (let c = 0; c < grid[r].length; c++) {
+            const cell = grid[r][c];
+            ctx.fillStyle = CELL_COLORS[cell] || '#111827';
+            ctx.fillRect(c * CELL, r * CELL, CELL - 0.5, CELL - 0.5);
+
+            // Item representation
+            if (cell === 1 || cell === 2) {
+              const rackId = getRackIdAt(r, c, cell);
+              const inv = rackInventories[rackId];
+              if (inv && inv.qty > 0) {
+                ctx.fillStyle = cell === 1 ? '#3b82f6' : '#f97316';
+                const innerSize = CELL - 4;
+                if (inv.qty > 100) {
+                  ctx.fillRect(c*CELL + 2, r*CELL + 2, innerSize/2 - 0.5, innerSize/2 - 0.5);
+                  ctx.fillRect(c*CELL + 2 + innerSize/2, r*CELL + 2, innerSize/2 - 0.5, innerSize/2 - 0.5);
+                  ctx.fillRect(c*CELL + 2, r*CELL + 2 + innerSize/2, innerSize/2 - 0.5, innerSize/2 - 0.5);
+                } else {
+                  ctx.fillRect(c*CELL + 4, r*CELL + 4, innerSize - 4, innerSize - 4);
+                }
+              }
+            }
+          }
+        }
+
+        // 2. Draw Paths
+        const activeAlgo = stats.algorithm || 'astar';
+        robots.forEach(robot => {
+          if (robot.path && robot.path.length > 0) {
+            ctx.beginPath();
+            ctx.moveTo(robot.col * CELL + CELL / 2, robot.row * CELL + CELL / 2);
+            robot.path.forEach(cell => {
+              ctx.lineTo(cell[1] * CELL + CELL / 2, cell[0] * CELL + CELL / 2);
+            });
+            ctx.strokeStyle = PATH_COLORS[activeAlgo] || '#ffffff';
+            ctx.lineWidth = 1.5;
+            ctx.setLineDash([3, 3]);
+            ctx.stroke();
+            ctx.setLineDash([]);
+          }
+        });
+
+        // 3. Draw Robots
+        robots.forEach(robot => {
+          const rY = robot.row * CELL + CELL / 2;
+          const rX = robot.col * CELL + CELL / 2;
+          const radius = CELL * 0.45;
+
+          ctx.beginPath();
+          ctx.arc(rX, rY, radius + 2, 0, 2 * Math.PI);
+          ctx.strokeStyle = ROBOT_COLORS[robot.state] || '#ffffff';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+
+          ctx.beginPath();
+          ctx.arc(rX, rY, radius, 0, 2 * Math.PI);
+          ctx.fillStyle = '#090a0f';
+          ctx.fill();
+          ctx.strokeStyle = ROBOT_COLORS[robot.state] || '#ffffff';
+          ctx.lineWidth = 2;
+          ctx.stroke();
+
+          ctx.beginPath();
+          ctx.arc(rX, rY, radius * 0.4, 0, 2 * Math.PI);
+          ctx.fillStyle = ROBOT_COLORS[robot.state] || '#ffffff';
+          ctx.fill();
+
+          if (robot.carrying) {
+            ctx.fillStyle = '#f59e0b';
+            ctx.fillRect(rX - 3, rY - 3, 6, 6);
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = 0.5;
+            ctx.strokeRect(rX - 3, rY - 3, 6, 6);
+          }
+
+          ctx.fillStyle = '#ffffff';
+          ctx.font = 'bold 8px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText(robot.id, rX, rY - radius - 4);
+        });
+
+        // 4. Draw Trucks
+        const truckCols = [10, 20, 35, 45];
+        truckCols.forEach(col => {
+          const x = col * CELL;
+          const y = 0;
+          let dockKey = col === 10 ? "LOAD_TC" : col === 20 ? "UNLOAD_TC" : col === 35 ? "LOAD_DRY" : "UNLOAD_DRY";
+          const progress = docks[dockKey];
+          const fillPercent = progress ? (progress.loaded / progress.capacity) : 0;
+
+          ctx.fillStyle = '#4b5563';
+          ctx.fillRect(x + CELL * 0.1, y + 2, CELL * 0.8, 4);
+          ctx.fillStyle = '#374151';
+          ctx.fillRect(x - 2, y + 6, CELL + 4, 8);
+          ctx.strokeStyle = '#9ca3af';
+          ctx.strokeRect(x - 2, y + 6, CELL + 4, 8);
+
+          if (fillPercent > 0) {
+            ctx.fillStyle = '#10b981';
+            ctx.fillRect(x - 1, y + 7, (CELL + 2) * fillPercent, 6);
+          }
+        });
+
+      }, [grid, robots, stats, docks]);
+
+      const handleMouseMove = (e) => {
+        const rect = canvasRef.current.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const col = pxToGrid(x, CELL);
+        const row = pxToGrid(y, CELL);
+
+        let hoveredRobot = null;
+        for (const robot of robots) {
+          const dist = Math.sqrt((robot.row - row) ** 2 + (robot.col - col) ** 2);
+          if (dist < 0.8) {
+            hoveredRobot = robot;
+            break;
+          }
+        }
+
+        if (hoveredRobot) {
+          setTooltip({
+            visible: true, x: x + 15, y: y + 15, type: 'ROBOT', data: hoveredRobot
+          });
+          return;
+        }
+
+        if (grid[row] && (grid[row][col] === 1 || grid[row][col] === 2)) {
+          const rackId = getRackIdAt(row, col, grid[row][col]);
+          const inv = rackInventories[rackId] || { qty: 0, skus: [], names: [], category: 'general' };
+          setTooltip({
+            visible: true, x: x + 15, y: y + 15, type: 'RACK',
+            data: { id: rackId, type: grid[row][col] === 1 ? 'TC (Frío)' : 'DRY (Seco)', ...inv }
+          });
+          return;
+        }
+        setTooltip(t => ({ ...t, visible: false }));
+      };
+
+      return (
+        <div className="relative border border-white/5 bg-[#0b0c10] rounded-2xl overflow-hidden shadow-2xl">
+          <canvas
+            ref={canvasRef} width={960} height={640}
+            onMouseMove={handleMouseMove} onMouseLeave={() => setTooltip(t => ({ ...t, visible: false }))}
+            onClick={(e) => {
+              const rect = canvasRef.current.getBoundingClientRect();
+              const c = pxToGrid(e.clientX - rect.left, CELL);
+              const r = pxToGrid(e.clientY - rect.top, CELL);
+              if (grid[r] && (grid[r][c] === 1 || grid[r][c] === 2)) {
+                onRackClick(getRackIdAt(r, c, grid[r][c]));
+              }
+            }}
+            onContextMenu={(e) => {
+              e.preventDefault();
+              const rect = canvasRef.current.getBoundingClientRect();
+              const c = pxToGrid(e.clientX - rect.left, CELL);
+              const r = pxToGrid(e.clientY - rect.top, CELL);
+              const clicked = robots.find(robot => Math.sqrt((robot.row - r)**2 + (robot.col - c)**2) < 1.0);
+              if (clicked) onRobotCancel(clicked.id);
+            }}
+            className="block cursor-crosshair"
+          />
+          {tooltip.visible && (
+            <div className="absolute pointer-events-none rounded-xl border border-white/10 bg-[#161b26]/90 p-3 shadow-xl backdrop-blur-md text-xs w-56 text-white" style={{ left: tooltip.x, top: tooltip.y }}>
+              {tooltip.type === 'ROBOT' ? (
+                <div>
+                  <div className="flex justify-between items-center border-b border-white/10 pb-1 mb-1 font-bold text-blue-400">
+                    <span>Robot {tooltip.data.id}</span>
+                    <span style={{ color: ROBOT_COLORS[tooltip.data.state] }}>{tooltip.data.state.replace(/_/g, ' ')}</span>
+                  </div>
+                  <p><span className="text-white/50">Carga:</span> {tooltip.data.carrying || 'Vacío'}</p>
+                  <p><span className="text-white/50">Destino:</span> {tooltip.data.target_dock || 'Ninguno'}</p>
+                  <p className="text-amber-400 font-bold mt-1">Restan {tooltip.data.path?.length || 0} tiles</p>
+                </div>
+              ) : (
+                <div>
+                  <div className="flex justify-between items-center border-b border-white/10 pb-1 mb-1 font-bold text-amber-400">
+                    <span>{tooltip.data.id}</span>
+                    <span className="text-[10px] text-white/50">{tooltip.data.type}</span>
+                  </div>
+                  <p><span className="text-white/50">Cantidad:</span> {tooltip.data.qty} un</p>
+                  <p><span className="text-white/50">Rubro:</span> {tooltip.data.category}</p>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    // --- COMPONENT: AlgoSelector.jsx ---
+    function AlgoSelector({ current, onChange }) {
+      const getActiveStyles = (algo) => {
+        if (current !== algo) return "bg-white/5 text-white/50 hover:bg-white/10";
+        if (algo === "astar") return "bg-blue-600/20 text-blue-400 border border-blue-500/50";
+        if (algo === "dijkstra") return "bg-purple-600/20 text-purple-400 border border-purple-500/50";
+        return "bg-emerald-600/20 text-emerald-400 border border-emerald-500/50";
+      };
+      return (
+        <div className="bg-white/5 border border-white/5 rounded-2xl p-4 backdrop-blur-md">
+          <h2 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-3">Algoritmo Activo</h2>
+          <div className="flex gap-2">
+            {["astar", "dijkstra", "bfs"].map(algo => (
+              <button key={algo} onClick={() => onChange(algo)} className={`flex-1 rounded-xl py-2 text-xs font-semibold transition-all ${getActiveStyles(algo)}`}>
+                {algo === "astar" ? "A*" : algo.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    // --- COMPONENT: StatsPanel.jsx ---
+    function StatsPanel({ stats }) {
+      return (
+        <div className="bg-white/5 border border-white/5 rounded-2xl p-4 space-y-4">
+          <h2 className="text-[10px] font-bold text-white/40 uppercase tracking-widest border-b border-white/5 pb-2">Estadísticas</h2>
+          <div className="grid grid-cols-2 gap-3">
+            <div className="bg-white/5 rounded-xl p-2.5 border border-white/5">
+              <span className="text-[10px] text-white/40 block">Entregas</span>
+              <span className="text-xl font-bold text-emerald-400">{stats.orders_completed}</span>
+            </div>
+            <div className="bg-white/5 rounded-xl p-2.5 border border-white/5">
+              <span className="text-[10px] text-white/40 block">Distancia Total</span>
+              <span className="text-lg font-bold">{stats.total_distance} <span className="text-[10px] text-white/40">tiles</span></span>
+            </div>
+          </div>
+          <div className="rounded-lg border border-white/5 overflow-hidden text-[10px]">
+            <table className="w-full text-left text-white/60">
+              <thead className="bg-white/5 uppercase text-white/40 text-[9px]">
+                <tr>
+                  <th className="p-2">Algoritmo</th>
+                  <th className="p-2 text-right">Nodos (Prom)</th>
+                  <th className="p-2 text-right">Tiempo (Prom)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5 font-mono">
+                <tr className={stats.algorithm === 'astar' ? 'bg-blue-500/5' : ''}>
+                  <td className="p-2 font-bold text-blue-400">A* Manhattan</td>
+                  <td className="p-2 text-right">{stats.comparison?.astar?.avg_nodes || 0}</td>
+                  <td className="p-2 text-right">{(stats.comparison?.astar?.avg_time_ms || 0).toFixed(2)} ms</td>
+                </tr>
+                <tr className={stats.algorithm === 'dijkstra' ? 'bg-purple-500/5' : ''}>
+                  <td className="p-2 font-bold text-purple-400">Dijkstra</td>
+                  <td className="p-2 text-right">{stats.comparison?.dijkstra?.avg_nodes || 0}</td>
+                  <td className="p-2 text-right">{(stats.comparison?.dijkstra?.avg_time_ms || 0).toFixed(2)} ms</td>
+                </tr>
+                <tr className={stats.algorithm === 'bfs' ? 'bg-emerald-500/5' : ''}>
+                  <td className="p-2 font-bold text-emerald-400">BFS</td>
+                  <td className="p-2 text-right">{stats.comparison?.bfs?.avg_nodes || 0}</td>
+                  <td className="p-2 text-right">{(stats.comparison?.bfs?.avg_time_ms || 0).toFixed(2)} ms</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      );
+    }
+
+    // --- COMPONENT: SpeedSlider.jsx ---
+    function SpeedSlider({ onChange }) {
+      const [val, setVal] = useState(1.0);
+      return (
+        <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
+          <div className="flex justify-between items-center mb-2">
+            <span className="text-[10px] font-bold text-white/40 uppercase tracking-widest">Velocidad</span>
+            <span className="text-xs font-mono font-bold text-amber-400">{val.toFixed(1)}x</span>
+          </div>
+          <input type="range" min="0.2" max="5.0" step="0.1" value={val} onChange={(e) => { const v = parseFloat(e.target.value); setVal(v); onChange(v); }} className="w-full accent-amber-500 cursor-pointer" />
+        </div>
+      );
+    }
+
+    // --- COMPONENT: EventLog.jsx ---
+    function EventLog({ events }) {
+      return (
+        <div className="bg-white/5 border border-white/5 rounded-2xl p-4 flex-1 flex flex-col min-h-[150px]">
+          <h2 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-3">Logs de Eventos</h2>
+          <div className="space-y-1.5 overflow-y-auto max-h-[160px] flex-1 text-[10px]">
+            {events.slice().reverse().map((evt, idx) => (
+              <div key={idx} className="p-1.5 border border-white/5 rounded bg-white/5 text-white/80">
+                {evt}
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    // --- COMPONENT: Legend.jsx ---
+    function Legend() {
+      return (
+        <div className="bg-white/5 border border-white/5 rounded-2xl p-4 text-[9px] space-y-2">
+          <h2 className="text-[10px] font-bold text-white/40 uppercase tracking-widest">Colores</h2>
+          <div className="grid grid-cols-2 gap-1 text-white/70">
+            <div className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded bg-[#1e2130]" />Pasillo</div>
+            <div className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded bg-[#0a0a0f]" />Muro</div>
+            <div className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded bg-[#1a4a7a]" />Rack TC</div>
+            <div className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded bg-[#7a4a1a]" />Rack DRY</div>
+            <div className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded bg-[#2a2a3a]" />Staging</div>
+          </div>
+        </div>
+      );
+    }
+
+    // --- MAIN APP ---
+    function App() {
+      const { state, status, sendMessage } = useWebSocket();
+      const { grid, robots, stats, events, docks, rackInventories } = useSimulation(state);
+
+      const handleDownloadGraph = (zone) => {
+        const url = `http://localhost:8000/api/graph/export${zone ? `?zone=${zone}` : ""}`;
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = `warehouse_graph_${zone || "full"}.json`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
+      return (
+        <div className="flex h-screen w-screen bg-[#090b0f] text-white overflow-hidden">
+          {/* Main Visualizer Area */}
+          <div className="flex-1 flex flex-col p-6 items-center justify-between">
+            <header className="w-full max-w-[960px] flex justify-between items-center bg-[#131722]/50 border border-white/5 px-5 py-3 rounded-2xl">
+              <div className="flex items-center gap-3">
+                <img src="https://img.icons8.com/color/48/amazon.png" className="w-6 h-6" />
+                <div>
+                  <h1 className="text-xs font-bold">Amazon Smart Warehouse</h1>
+                  <p className="text-[9px] text-white/40 font-mono uppercase">Complejidad Algorítmica · 1ACC0184</p>
+                </div>
+              </div>
+              <span className="px-2.5 py-1 text-[9px] rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold">
+                {status === "CONNECTED" ? "● Conectado (WS)" : "○ Desconectado"}
+              </span>
+            </header>
+
+            <main className="my-auto flex flex-col items-center">
+              <WarehouseCanvas
+                grid={grid} robots={robots} stats={stats} docks={docks} rackInventories={rackInventories}
+                onRackClick={(rackId) => sendMessage({ type: 'CLICK_RACK', rack_id: rackId })}
+                onRobotCancel={(robotId) => sendMessage({ type: 'CANCEL_ROBOT', robot_id: robotId })}
+              />
+              <div className="flex justify-between w-[960px] text-[10px] text-white/30 font-medium px-4 mt-2">
+                <span>💡 Click Rack: Asignar Pedido</span>
+                <span>💡 Hover: Tooltip Detalles</span>
+                <span>💡 Click Derecho Robot: Cancelar Orden</span>
+              </div>
+            </main>
+
+            <footer className="w-full max-w-[960px] text-center text-[9px] text-white/30">
+              FastAPI + React Canvas Intelligent Warehouse Simulator
+            </footer>
+          </div>
+
+          {/* Controls Sidebar */}
+          <aside className="w-[320px] bg-[#11131a] border-l border-white/5 flex flex-col p-4 gap-4 overflow-y-auto select-none">
+            <AlgoSelector current={stats.algorithm} onChange={(algo) => sendMessage({ type: 'CHANGE_ALGO', algo })} />
+            <StatsPanel stats={stats} />
+            <SpeedSlider onChange={(val) => sendMessage({ type: 'SET_SPEED', value: val })} />
+            
+            <div className="bg-white/5 border border-white/5 rounded-2xl p-4 space-y-3">
+              <span className="text-[10px] font-bold text-white/40 uppercase tracking-widest block">Acciones</span>
+              <div className="flex gap-2">
+                <button onClick={() => sendMessage({ type: 'ADD_RANDOM_ORDER' })} className="flex-1 bg-amber-600 hover:bg-amber-500 text-white font-semibold rounded-xl text-xs py-2 transition-all">
+                  + Pedido
+                </button>
+                <button onClick={() => sendMessage({ type: 'RESET' })} className="flex-1 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl text-xs py-2 transition-all">
+                  Reset
+                </button>
+              </div>
+
+              <div className="border-t border-white/5 pt-2.5 space-y-2">
+                <span className="text-[9px] font-bold text-white/40 uppercase tracking-widest block">Exportar NetworkX JSON</span>
+                <div className="grid grid-cols-3 gap-1">
+                  <button onClick={() => handleDownloadGraph()} className="bg-blue-600/10 hover:bg-blue-600/20 border border-blue-500/20 text-blue-400 font-semibold rounded text-[9px] py-1">Completo</button>
+                  <button onClick={() => handleDownloadGraph("TC")} className="bg-purple-600/10 hover:bg-purple-600/20 border border-purple-500/20 text-purple-400 font-semibold rounded text-[9px] py-1">TC</button>
+                  <button onClick={() => handleDownloadGraph("DRY")} className="bg-amber-600/10 hover:bg-amber-600/20 border border-amber-500/20 text-amber-400 font-semibold rounded text-[9px] py-1">DRY</button>
+                </div>
+              </div>
+            </div>
+
+            <EventLog events={events} />
+            <Legend />
+          </aside>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>

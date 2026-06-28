@@ -1,0 +1,1501 @@
+sku,nombre,zona,rack_id,cantidad,peso_kg,categoria
+SKU-0001,Galletas de Soda x12 #41,DRY,DRY-R31-C40,57,2.14,limpieza
+SKU-0002,Jabón Lavavajillas 500ml #85,DRY,DRY-R32-C51,52,0.53,hogar
+SKU-0003,Leche UHT 1L #81,TC,TC-R19-C6,189,3.61,bebidas_frias
+SKU-0004,Cargador Carga Rápida #85,DRY,DRY-R29-C43,8,12.15,abarrotes
+SKU-0005,Audífonos Bluetooth #53,DRY,DRY-R29-C43,495,2.37,abarrotes
+SKU-0006,Jabón Lavavajillas 500ml #58,DRY,DRY-R17-C34,181,5.42,limpieza
+SKU-0007,Detergente Líquico 3L #68,DRY,DRY-R33-C57,477,1.92,libros
+SKU-0008,Papas Fritas Congeladas 1kg #90,TC,TC-R32-C17,102,4.44,bebidas_frias
+SKU-0009,Jabón Lavavajillas 500ml #15,DRY,DRY-R5-C42,45,11.61,juguetes
+SKU-0010,Arroz Extra 5kg #58,DRY,DRY-R29-C43,432,6.83,libros
+SKU-0011,Insulina Rápida #36,TC,TC-R30-C18,249,1.41,congelados
+SKU-0012,Bloques de Construcción #91,DRY,DRY-R5-C39,130,8.04,limpieza
+SKU-0013,Helado de Vainilla 1L #91,TC,TC-R8-C20,185,2.83,farmacia
+SKU-0014,Lomo de Cerdo 1kg #14,TC,TC-R10-C23,78,1.65,lacteos
+SKU-0015,Vacuna Gripe A #37,TC,TC-R21-C18,236,2.55,bebidas_frias
+SKU-0016,Azúcar Rubia 1kg #43,DRY,DRY-R32-C36,292,3.74,electro
+SKU-0017,Muñeca de Moda #64,DRY,DRY-R6-C51,75,5.46,juguetes
+SKU-0018,Detergente Líquico 3L #24,DRY,DRY-R16-C37,410,9.43,limpieza
+SKU-0019,Jabón Lavavajillas 500ml #59,DRY,DRY-R18-C49,244,8.96,hogar
+SKU-0020,Papel Toalla x6 #97,DRY,DRY-R5-C36,279,10.24,hogar
+SKU-0021,Libro Novela Ficción #53,DRY,DRY-R33-C34,85,4.44,libros
+SKU-0022,Galletas de Soda x12 #74,DRY,DRY-R13-C39,59,7.64,juguetes
+SKU-0023,Libro Novela Ficción #74,DRY,DRY-R4-C40,395,2.33,snacks
+SKU-0024,Leche UHT 1L #86,TC,TC-R26-C9,38,2.49,bebidas_frias
+SKU-0025,Papas Pringles Original #40,DRY,DRY-R5-C33,295,3.65,libros
+SKU-0026,Sartén Antiadherente 24cm #18,DRY,DRY-R29-C57,70,11.5,limpieza
+SKU-0027,Fideos Tallarín 500g #43,DRY,DRY-R23-C57,221,13.09,hogar
+SKU-0028,Aceite Vegetal 1L #49,DRY,DRY-R6-C51,337,14.93,hogar
+SKU-0029,Cerveza Premium 6pack #25,TC,TC-R15-C8,96,1.2,bebidas_frias
+SKU-0030,Lomo de Cerdo 1kg #85,TC,TC-R31-C6,191,0.14,bebidas_frias
+SKU-0031,Jabón Lavavajillas 500ml #14,DRY,DRY-R25-C46,126,1.11,abarrotes
+SKU-0032,Pechuga de Pollo 1kg #79,TC,TC-R14-C5,235,3.64,farmacia
+SKU-0033,Atún en Conserva 170g #70,DRY,DRY-R15-C51,54,2.9,electro
+SKU-0034,Audífonos Bluetooth #62,DRY,DRY-R19-C54,32,12.96,snacks
+SKU-0035,Arroz Extra 5kg #17,DRY,DRY-R10-C51,414,10.94,juguetes
+SKU-0036,Aceite Vegetal 1L #34,DRY,DRY-R33-C57,221,6.76,abarrotes
+SKU-0037,Lomo de Cerdo 1kg #19,TC,TC-R29-C12,229,4.06,farmacia
+SKU-0038,Libro Novela Ficción #79,DRY,DRY-R20-C30,479,14.54,limpieza
+SKU-0039,Fideos Tallarín 500g #62,DRY,DRY-R8-C55,447,7.25,abarrotes
+SKU-0040,Fideos Tallarín 500g #58,DRY,DRY-R6-C30,140,14.78,limpieza
+SKU-0041,Cargador Carga Rápida #46,DRY,DRY-R33-C51,379,10.46,libros
+SKU-0042,Cuaderno Espiral A4 #72,DRY,DRY-R18-C37,116,2.89,hogar
+SKU-0043,Set de Cubiertos x24 #17,DRY,DRY-R6-C46,304,0.9,hogar
+SKU-0044,Toalla de Baño #30,DRY,DRY-R4-C33,46,14.41,libros
+SKU-0045,Bloques de Construcción #18,DRY,DRY-R13-C42,487,6.09,limpieza
+SKU-0046,Muñeca de Moda #86,DRY,DRY-R16-C31,219,9.31,abarrotes
+SKU-0047,Toalla de Baño #50,DRY,DRY-R10-C43,371,3.1,hogar
+SKU-0048,Suero Fisiológico #26,TC,TC-R30-C18,127,3.26,congelados
+SKU-0049,Leche UHT 1L #68,TC,TC-R34-C17,35,4.99,lacteos
+SKU-0050,Helado de Vainilla 1L #26,TC,TC-R8-C11,235,4.42,carnes
+SKU-0051,Salchicha Viena x10 #66,TC,TC-R26-C23,87,2.76,congelados
+SKU-0052,Libro Novela Ficción #77,DRY,DRY-R13-C30,288,10.03,libros
+SKU-0053,Mantequilla con sal 200g #43,TC,TC-R5-C5,200,4.46,lacteos
+SKU-0054,Papas Pringles Original #87,DRY,DRY-R17-C40,109,10.78,snacks
+SKU-0055,Galletas de Soda x12 #74,DRY,DRY-R11-C55,469,3.8,libros
+SKU-0056,Libro Novela Ficción #64,DRY,DRY-R28-C43,175,0.71,limpieza
+SKU-0057,Galletas de Soda x12 #30,DRY,DRY-R22-C52,223,8.3,juguetes
+SKU-0058,Jabón Lavavajillas 500ml #98,DRY,DRY-R11-C37,432,8.21,limpieza
+SKU-0059,Mantequilla con sal 200g #65,TC,TC-R11-C5,103,0.3,bebidas_frias
+SKU-0060,Detergente Líquico 3L #55,DRY,DRY-R17-C40,346,10.25,libros
+SKU-0061,Bebida Energética 500ml #89,TC,TC-R10-C21,248,0.86,bebidas_frias
+SKU-0062,Salchicha Viena x10 #62,TC,TC-R17-C2,246,0.98,carnes
+SKU-0063,Lomo de Cerdo 1kg #44,TC,TC-R29-C5,37,3.96,farmacia
+SKU-0064,Agua Mineral Fria 1.5L #38,TC,TC-R20-C6,127,4.1,lacteos
+SKU-0065,Lomo de Cerdo 1kg #13,TC,TC-R23-C18,94,1.05,carnes
+SKU-0066,Helado de Vainilla 1L #54,TC,TC-R14-C18,183,2.6,lacteos
+SKU-0067,Ch chocolates Milk 100g #13,DRY,DRY-R6-C36,138,13.16,hogar
+SKU-0068,Jugo Naranja 2L #23,TC,TC-R20-C17,196,2.23,congelados
+SKU-0069,Bloques de Construcción #75,DRY,DRY-R6-C36,300,5.81,electro
+SKU-0070,Bebida Energética 500ml #10,TC,TC-R9-C15,147,4.64,lacteos
+SKU-0071,Cuaderno Espiral A4 #35,DRY,DRY-R30-C48,490,6.5,juguetes
+SKU-0072,Bloques de Construcción #50,DRY,DRY-R16-C36,158,10.81,snacks
+SKU-0073,Audífonos Bluetooth #51,DRY,DRY-R10-C51,288,10.47,juguetes
+SKU-0074,Suero Fisiológico #96,TC,TC-R10-C21,167,4.52,farmacia
+SKU-0075,Set de Cubiertos x24 #10,DRY,DRY-R27-C45,225,4.34,electro
+SKU-0076,Libro Novela Ficción #51,DRY,DRY-R17-C54,350,6.65,hogar
+SKU-0077,Salchicha Viena x10 #94,TC,TC-R19-C3,179,1.49,farmacia
+SKU-0078,Jabón Lavavajillas 500ml #40,DRY,DRY-R33-C45,106,3.41,snacks
+SKU-0079,Lomo de Cerdo 1kg #70,TC,TC-R28-C17,28,4.26,lacteos
+SKU-0080,Muñeca de Moda #34,DRY,DRY-R21-C49,129,7.44,juguetes
+SKU-0081,Queso Edam 500g #64,TC,TC-R31-C6,188,0.96,lacteos
+SKU-0082,Set de Cubiertos x24 #41,DRY,DRY-R13-C36,415,6.87,limpieza
+SKU-0083,Set de Cubiertos x24 #86,DRY,DRY-R9-C46,461,14.25,hogar
+SKU-0084,Toalla de Baño #64,DRY,DRY-R15-C58,86,6.72,libros
+SKU-0085,Cargador Carga Rápida #43,DRY,DRY-R27-C42,146,12.61,electro
+SKU-0086,Sartén Antiadherente 24cm #90,DRY,DRY-R17-C42,44,4.16,hogar
+SKU-0087,Galletas de Soda x12 #52,DRY,DRY-R13-C46,46,13.4,abarrotes
+SKU-0088,Suero Fisiológico #98,TC,TC-R26-C5,26,3.56,carnes
+SKU-0089,Set de Cubiertos x24 #69,DRY,DRY-R25-C51,431,0.98,snacks
+SKU-0090,Muñeca de Moda #99,DRY,DRY-R26-C30,396,12.86,libros
+SKU-0091,Papel Toalla x6 #55,DRY,DRY-R20-C45,441,11.31,electro
+SKU-0092,Audífonos Bluetooth #78,DRY,DRY-R13-C58,464,12.01,libros
+SKU-0093,Helado de Vainilla 1L #65,TC,TC-R21-C14,96,0.24,carnes
+SKU-0094,Té Filtrante 100un #31,DRY,DRY-R19-C54,323,13.8,libros
+SKU-0095,Muñeca de Moda #82,DRY,DRY-R33-C30,224,1.31,electro
+SKU-0096,Salchicha Viena x10 #16,TC,TC-R22-C8,64,1.96,farmacia
+SKU-0097,Té Filtrante 100un #45,DRY,DRY-R31-C51,46,3.82,snacks
+SKU-0098,Set de Cubiertos x24 #16,DRY,DRY-R15-C48,40,3.4,juguetes
+SKU-0099,Detergente Líquico 3L #13,DRY,DRY-R27-C42,15,3.03,juguetes
+SKU-0100,Azúcar Rubia 1kg #70,DRY,DRY-R5-C36,116,8.48,abarrotes
+SKU-0101,Café Instantáneo 200g #31,DRY,DRY-R5-C36,88,11.68,snacks
+SKU-0102,Muñeca de Moda #13,DRY,DRY-R4-C46,469,8.66,limpieza
+SKU-0103,Aceite Vegetal 1L #19,DRY,DRY-R21-C42,400,1.57,electro
+SKU-0104,Queso Edam 500g #82,TC,TC-R29-C21,146,0.3,bebidas_frias
+SKU-0105,Jabón Lavavajillas 500ml #74,DRY,DRY-R5-C48,220,0.24,snacks
+SKU-0106,Audífonos Bluetooth #56,DRY,DRY-R10-C54,227,10.62,limpieza
+SKU-0107,Helado de Vainilla 1L #88,TC,TC-R11-C23,208,4.61,bebidas_frias
+SKU-0108,Muñeca de Moda #44,DRY,DRY-R16-C46,430,12.78,electro
+SKU-0109,Cargador Carga Rápida #41,DRY,DRY-R16-C54,347,8.57,snacks
+SKU-0110,Agua Mineral Fria 1.5L #51,TC,TC-R10-C6,100,2.49,lacteos
+SKU-0111,Galletas de Soda x12 #86,DRY,DRY-R27-C43,269,8.36,snacks
+SKU-0112,Atún en Conserva 170g #62,DRY,DRY-R11-C55,128,8.35,limpieza
+SKU-0113,Sartén Antiadherente 24cm #67,DRY,DRY-R22-C30,118,1.44,juguetes
+SKU-0114,Papas Pringles Original #94,DRY,DRY-R4-C49,276,7.13,abarrotes
+SKU-0115,Vacuna Gripe A #55,TC,TC-R16-C20,88,2.32,bebidas_frias
+SKU-0116,Pechuga de Pollo 1kg #50,TC,TC-R7-C5,205,3.74,lacteos
+SKU-0117,Aceite Vegetal 1L #71,DRY,DRY-R28-C43,394,10.88,abarrotes
+SKU-0118,Arroz Extra 5kg #34,DRY,DRY-R18-C45,96,3.45,snacks
+SKU-0119,Mantequilla con sal 200g #45,TC,TC-R29-C2,151,4.87,bebidas_frias
+SKU-0120,Agua Mineral Fria 1.5L #23,TC,TC-R16-C24,82,0.16,carnes
+SKU-0121,Ch chocolates Milk 100g #33,DRY,DRY-R29-C31,446,3.82,electro
+SKU-0122,Jabón Lavavajillas 500ml #61,DRY,DRY-R15-C55,327,1.16,libros
+SKU-0123,Azúcar Rubia 1kg #82,DRY,DRY-R27-C45,132,1.32,abarrotes
+SKU-0124,Lomo de Cerdo 1kg #76,TC,TC-R26-C11,123,2.31,farmacia
+SKU-0125,Bebida Energética 500ml #49,TC,TC-R5-C17,166,3.14,bebidas_frias
+SKU-0126,Aceite Vegetal 1L #90,DRY,DRY-R18-C40,46,4.01,limpieza
+SKU-0127,Yogurt Natural 1kg #30,TC,TC-R5-C2,186,2.1,carnes
+SKU-0128,Detergente Líquico 3L #39,DRY,DRY-R9-C45,364,10.62,snacks
+SKU-0129,Cuaderno Espiral A4 #39,DRY,DRY-R14-C43,325,11.83,limpieza
+SKU-0130,Aceite Vegetal 1L #64,DRY,DRY-R5-C36,336,8.19,libros
+SKU-0131,Mantequilla con sal 200g #19,TC,TC-R5-C3,88,0.91,congelados
+SKU-0132,Muñeca de Moda #46,DRY,DRY-R19-C52,357,1.91,libros
+SKU-0133,Helado de Vainilla 1L #74,TC,TC-R20-C15,30,2.52,farmacia
+SKU-0134,Ch chocolates Milk 100g #87,DRY,DRY-R30-C42,122,0.44,electro
+SKU-0135,Muñeca de Moda #85,DRY,DRY-R27-C30,349,14.99,libros
+SKU-0136,Detergente Líquico 3L #32,DRY,DRY-R22-C54,231,7.81,hogar
+SKU-0137,Muñeca de Moda #65,DRY,DRY-R15-C55,245,14.54,abarrotes
+SKU-0138,Vacuna Gripe A #95,TC,TC-R30-C3,94,4.3,congelados
+SKU-0139,Papas Pringles Original #94,DRY,DRY-R8-C51,286,12.21,electro
+SKU-0140,Vacuna Gripe A #42,TC,TC-R26-C9,207,0.67,lacteos
+SKU-0141,Papel Toalla x6 #94,DRY,DRY-R8-C58,32,6.96,hogar
+SKU-0142,Agua Mineral Fria 1.5L #90,TC,TC-R29-C12,62,3.82,congelados
+SKU-0143,Papas Fritas Congeladas 1kg #66,TC,TC-R20-C24,41,3.52,carnes
+SKU-0144,Lomo de Cerdo 1kg #30,TC,TC-R19-C9,151,2.8,bebidas_frias
+SKU-0145,Arroz Extra 5kg #69,DRY,DRY-R8-C36,83,9.73,abarrotes
+SKU-0146,Papas Pringles Original #75,DRY,DRY-R23-C43,252,6.26,juguetes
+SKU-0147,Cargador Carga Rápida #80,DRY,DRY-R7-C37,476,5.78,abarrotes
+SKU-0148,Azúcar Rubia 1kg #18,DRY,DRY-R27-C43,442,11.6,juguetes
+SKU-0149,Toalla de Baño #44,DRY,DRY-R6-C30,157,4.28,libros
+SKU-0150,Cuaderno Espiral A4 #72,DRY,DRY-R11-C37,252,6.73,hogar
+SKU-0151,Suero Fisiológico #68,TC,TC-R25-C9,188,4.36,bebidas_frias
+SKU-0152,Lomo de Cerdo 1kg #62,TC,TC-R28-C2,131,1.66,farmacia
+SKU-0153,Té Filtrante 100un #59,DRY,DRY-R15-C37,23,7.46,libros
+SKU-0154,Vacuna Gripe A #22,TC,TC-R17-C24,35,4.24,bebidas_frias
+SKU-0155,Papel Toalla x6 #28,DRY,DRY-R18-C51,84,13.07,electro
+SKU-0156,Vacuna Gripe A #89,TC,TC-R10-C20,30,2.05,congelados
+SKU-0157,Cuaderno Espiral A4 #78,DRY,DRY-R17-C49,325,14.31,libros
+SKU-0158,Sartén Antiadherente 24cm #79,DRY,DRY-R11-C31,125,9.28,libros
+SKU-0159,Atún en Conserva 170g #21,DRY,DRY-R14-C52,394,14.68,snacks
+SKU-0160,Arroz Extra 5kg #66,DRY,DRY-R31-C37,467,10.43,libros
+SKU-0161,Jugo Naranja 2L #47,TC,TC-R14-C11,47,1.94,congelados
+SKU-0162,Salchicha Viena x10 #31,TC,TC-R6-C6,232,0.49,farmacia
+SKU-0163,Agua Mineral Fria 1.5L #84,TC,TC-R20-C5,173,1.24,carnes
+SKU-0164,Leche UHT 1L #69,TC,TC-R32-C24,149,1.51,congelados
+SKU-0165,Insulina Rápida #85,TC,TC-R13-C9,118,3.23,farmacia
+SKU-0166,Papas Pringles Original #35,DRY,DRY-R21-C49,59,12.81,electro
+SKU-0167,Insulina Rápida #83,TC,TC-R10-C9,85,4.96,bebidas_frias
+SKU-0168,Helado de Vainilla 1L #11,TC,TC-R34-C15,209,4.34,farmacia
+SKU-0169,Bloques de Construcción #73,DRY,DRY-R7-C45,122,11.65,limpieza
+SKU-0170,Atún en Conserva 170g #91,DRY,DRY-R26-C39,352,9.33,snacks
+SKU-0171,Cuaderno Espiral A4 #97,DRY,DRY-R30-C36,467,9.44,libros
+SKU-0172,Papas Pringles Original #66,DRY,DRY-R9-C31,379,8.71,limpieza
+SKU-0173,Vacuna Gripe A #63,TC,TC-R6-C6,211,1.08,congelados
+SKU-0174,Toalla de Baño #74,DRY,DRY-R23-C43,136,12.47,snacks
+SKU-0175,Papas Pringles Original #53,DRY,DRY-R5-C36,43,7.05,electro
+SKU-0176,Suero Fisiológico #81,TC,TC-R18-C11,111,0.54,carnes
+SKU-0177,Queso Edam 500g #68,TC,TC-R19-C11,182,3.4,bebidas_frias
+SKU-0178,Insulina Rápida #23,TC,TC-R32-C18,16,1.25,farmacia
+SKU-0179,Ch chocolates Milk 100g #88,DRY,DRY-R29-C40,330,9.73,hogar
+SKU-0180,Papas Pringles Original #93,DRY,DRY-R17-C51,28,1.79,juguetes
+SKU-0181,Sartén Antiadherente 24cm #24,DRY,DRY-R17-C34,280,3.56,snacks
+SKU-0182,Insulina Rápida #95,TC,TC-R7-C21,148,3.51,farmacia
+SKU-0183,Azúcar Rubia 1kg #63,DRY,DRY-R19-C34,320,12.51,juguetes
+SKU-0184,Detergente Líquico 3L #98,DRY,DRY-R6-C49,232,3.3,snacks
+SKU-0185,Café Instantáneo 200g #22,DRY,DRY-R34-C48,335,8.19,libros
+SKU-0186,Helado de Vainilla 1L #34,TC,TC-R8-C5,220,4.75,farmacia
+SKU-0187,Aceite Vegetal 1L #92,DRY,DRY-R27-C30,175,0.81,juguetes
+SKU-0188,Pechuga de Pollo 1kg #18,TC,TC-R23-C23,63,3.85,carnes
+SKU-0189,Atún en Conserva 170g #52,DRY,DRY-R10-C37,310,11.84,libros
+SKU-0190,Mantequilla con sal 200g #79,TC,TC-R17-C8,38,4.01,carnes
+SKU-0191,Azúcar Rubia 1kg #11,DRY,DRY-R23-C48,126,11.86,limpieza
+SKU-0192,Fideos Tallarín 500g #43,DRY,DRY-R30-C31,220,1.95,limpieza
+SKU-0193,Jabón Lavavajillas 500ml #70,DRY,DRY-R30-C52,267,11.68,juguetes
+SKU-0194,Toalla de Baño #38,DRY,DRY-R20-C31,470,10.92,electro
+SKU-0195,Papas Pringles Original #68,DRY,DRY-R6-C31,250,0.96,hogar
+SKU-0196,Cuaderno Espiral A4 #23,DRY,DRY-R14-C55,232,10.7,electro
+SKU-0197,Vacuna Gripe A #87,TC,TC-R22-C5,80,0.42,lacteos
+SKU-0198,Set de Cubiertos x24 #51,DRY,DRY-R18-C49,276,14.92,hogar
+SKU-0199,Bebida Energética 500ml #22,TC,TC-R4-C23,228,3.54,bebidas_frias
+SKU-0200,Set de Cubiertos x24 #37,DRY,DRY-R9-C52,121,6.8,libros
+SKU-0201,Cargador Carga Rápida #61,DRY,DRY-R25-C51,165,10.96,libros
+SKU-0202,Galletas de Soda x12 #57,DRY,DRY-R16-C37,247,10.32,juguetes
+SKU-0203,Yogurt Natural 1kg #65,TC,TC-R26-C3,105,3.75,lacteos
+SKU-0204,Detergente Líquico 3L #85,DRY,DRY-R30-C58,348,8.45,hogar
+SKU-0205,Bebida Energética 500ml #16,TC,TC-R6-C9,100,3.04,congelados
+SKU-0206,Pechuga de Pollo 1kg #29,TC,TC-R22-C18,226,2.46,bebidas_frias
+SKU-0207,Insulina Rápida #24,TC,TC-R18-C21,67,1.46,bebidas_frias
+SKU-0208,Set de Cubiertos x24 #89,DRY,DRY-R25-C58,480,0.44,libros
+SKU-0209,Galletas de Soda x12 #13,DRY,DRY-R15-C39,395,4.14,juguetes
+SKU-0210,Insulina Rápida #10,TC,TC-R9-C6,154,4.36,congelados
+SKU-0211,Azúcar Rubia 1kg #91,DRY,DRY-R6-C31,276,1.42,limpieza
+SKU-0212,Cerveza Premium 6pack #53,TC,TC-R28-C5,194,1.91,farmacia
+SKU-0213,Yogurt Natural 1kg #16,TC,TC-R27-C5,168,0.87,bebidas_frias
+SKU-0214,Helado de Vainilla 1L #66,TC,TC-R25-C18,165,2.18,lacteos
+SKU-0215,Aceite Vegetal 1L #75,DRY,DRY-R4-C36,61,5.21,snacks
+SKU-0216,Agua Mineral Fria 1.5L #77,TC,TC-R28-C18,66,1.61,bebidas_frias
+SKU-0217,Jugo Naranja 2L #10,TC,TC-R22-C6,64,1.58,bebidas_frias
+SKU-0218,Galletas de Soda x12 #47,DRY,DRY-R21-C46,259,1.84,libros
+SKU-0219,Azúcar Rubia 1kg #58,DRY,DRY-R29-C57,261,10.57,abarrotes
+SKU-0220,Café Instantáneo 200g #19,DRY,DRY-R4-C51,26,12.93,juguetes
+SKU-0221,Jabón Lavavajillas 500ml #50,DRY,DRY-R8-C52,368,8.62,electro
+SKU-0222,Arroz Extra 5kg #61,DRY,DRY-R27-C30,92,14.49,snacks
+SKU-0223,Cargador Carga Rápida #98,DRY,DRY-R28-C48,437,1.37,hogar
+SKU-0224,Suero Fisiológico #77,TC,TC-R16-C3,89,2.04,farmacia
+SKU-0225,Ch chocolates Milk 100g #31,DRY,DRY-R26-C33,63,7.68,abarrotes
+SKU-0226,Café Instantáneo 200g #54,DRY,DRY-R10-C37,79,3.58,abarrotes
+SKU-0227,Mantequilla con sal 200g #93,TC,TC-R14-C3,207,0.97,carnes
+SKU-0228,Muñeca de Moda #84,DRY,DRY-R30-C52,456,10.23,electro
+SKU-0229,Bloques de Construcción #51,DRY,DRY-R8-C46,39,2.31,juguetes
+SKU-0230,Papas Pringles Original #45,DRY,DRY-R34-C31,42,5.31,juguetes
+SKU-0231,Jugo Naranja 2L #17,TC,TC-R19-C11,29,4.18,farmacia
+SKU-0232,Jabón Lavavajillas 500ml #88,DRY,DRY-R32-C55,302,5.8,libros
+SKU-0233,Detergente Líquico 3L #67,DRY,DRY-R23-C39,248,4.86,libros
+SKU-0234,Cargador Carga Rápida #23,DRY,DRY-R7-C48,48,14.74,limpieza
+SKU-0235,Detergente Líquico 3L #41,DRY,DRY-R18-C52,273,14.87,abarrotes
+SKU-0236,Café Instantáneo 200g #57,DRY,DRY-R34-C43,401,5.84,abarrotes
+SKU-0237,Jugo Naranja 2L #90,TC,TC-R17-C18,94,1.74,bebidas_frias
+SKU-0238,Papas Fritas Congeladas 1kg #42,TC,TC-R28-C20,242,4.27,farmacia
+SKU-0239,Ch chocolates Milk 100g #20,DRY,DRY-R34-C36,163,13.76,abarrotes
+SKU-0240,Cuaderno Espiral A4 #60,DRY,DRY-R21-C36,485,8.95,juguetes
+SKU-0241,Suero Fisiológico #92,TC,TC-R34-C21,42,1.71,bebidas_frias
+SKU-0242,Cuaderno Espiral A4 #77,DRY,DRY-R13-C34,221,9.71,libros
+SKU-0243,Café Instantáneo 200g #49,DRY,DRY-R15-C39,179,14.27,limpieza
+SKU-0244,Aceite Vegetal 1L #38,DRY,DRY-R30-C36,156,2.37,electro
+SKU-0245,Toalla de Baño #79,DRY,DRY-R22-C57,177,0.61,limpieza
+SKU-0246,Azúcar Rubia 1kg #86,DRY,DRY-R13-C49,97,2.36,hogar
+SKU-0247,Bloques de Construcción #31,DRY,DRY-R18-C52,191,0.7,libros
+SKU-0248,Cargador Carga Rápida #88,DRY,DRY-R5-C45,406,11.3,abarrotes
+SKU-0249,Atún en Conserva 170g #49,DRY,DRY-R21-C54,104,13.56,hogar
+SKU-0250,Cerveza Premium 6pack #69,TC,TC-R21-C21,107,1.48,bebidas_frias
+SKU-0251,Fideos Tallarín 500g #35,DRY,DRY-R31-C36,31,13.1,electro
+SKU-0252,Café Instantáneo 200g #80,DRY,DRY-R23-C34,269,10.69,libros
+SKU-0253,Jabón Lavavajillas 500ml #30,DRY,DRY-R23-C43,267,6.77,snacks
+SKU-0254,Yogurt Natural 1kg #38,TC,TC-R17-C23,99,2.31,farmacia
+SKU-0255,Detergente Líquico 3L #60,DRY,DRY-R27-C55,202,5.64,electro
+SKU-0256,Atún en Conserva 170g #13,DRY,DRY-R11-C46,434,13.97,snacks
+SKU-0257,Azúcar Rubia 1kg #27,DRY,DRY-R15-C31,429,4.34,snacks
+SKU-0258,Azúcar Rubia 1kg #70,DRY,DRY-R30-C52,468,9.25,libros
+SKU-0259,Pechuga de Pollo 1kg #29,TC,TC-R25-C15,165,4.71,congelados
+SKU-0260,Papas Pringles Original #40,DRY,DRY-R23-C45,127,1.87,limpieza
+SKU-0261,Bloques de Construcción #68,DRY,DRY-R10-C33,468,1.71,libros
+SKU-0262,Papel Toalla x6 #90,DRY,DRY-R9-C57,372,8.65,hogar
+SKU-0263,Leche UHT 1L #88,TC,TC-R10-C11,116,1.28,farmacia
+SKU-0264,Insulina Rápida #18,TC,TC-R13-C15,211,2.77,lacteos
+SKU-0265,Papel Toalla x6 #59,DRY,DRY-R22-C54,203,0.7,hogar
+SKU-0266,Papel Toalla x6 #55,DRY,DRY-R16-C33,380,5.2,snacks
+SKU-0267,Muñeca de Moda #52,DRY,DRY-R26-C36,284,0.71,limpieza
+SKU-0268,Cerveza Premium 6pack #99,TC,TC-R18-C14,217,3.2,carnes
+SKU-0269,Jugo Naranja 2L #47,TC,TC-R21-C6,61,0.31,farmacia
+SKU-0270,Papas Pringles Original #75,DRY,DRY-R5-C51,283,14.84,snacks
+SKU-0271,Libro Novela Ficción #34,DRY,DRY-R6-C45,404,5.39,limpieza
+SKU-0272,Helado de Vainilla 1L #25,TC,TC-R7-C23,237,1.9,congelados
+SKU-0273,Té Filtrante 100un #53,DRY,DRY-R22-C39,259,7.47,electro
+SKU-0274,Helado de Vainilla 1L #20,TC,TC-R30-C20,120,2.18,bebidas_frias
+SKU-0275,Fideos Tallarín 500g #79,DRY,DRY-R15-C45,45,4.85,libros
+SKU-0276,Papas Fritas Congeladas 1kg #67,TC,TC-R23-C17,52,3.62,congelados
+SKU-0277,Cargador Carga Rápida #15,DRY,DRY-R18-C48,227,9.24,snacks
+SKU-0278,Yogurt Natural 1kg #95,TC,TC-R11-C18,141,2.09,lacteos
+SKU-0279,Fideos Tallarín 500g #13,DRY,DRY-R5-C37,352,12.74,juguetes
+SKU-0280,Azúcar Rubia 1kg #18,DRY,DRY-R14-C42,192,11.69,limpieza
+SKU-0281,Jugo Naranja 2L #87,TC,TC-R26-C5,104,3.43,bebidas_frias
+SKU-0282,Mantequilla con sal 200g #77,TC,TC-R18-C11,176,2.05,lacteos
+SKU-0283,Leche UHT 1L #33,TC,TC-R29-C14,243,2.64,lacteos
+SKU-0284,Galletas de Soda x12 #67,DRY,DRY-R21-C40,151,14.95,snacks
+SKU-0285,Aceite Vegetal 1L #25,DRY,DRY-R28-C36,236,12.8,electro
+SKU-0286,Yogurt Natural 1kg #97,TC,TC-R32-C23,180,4.93,farmacia
+SKU-0287,Papas Fritas Congeladas 1kg #48,TC,TC-R4-C24,191,0.87,lacteos
+SKU-0288,Fideos Tallarín 500g #56,DRY,DRY-R33-C55,107,3.4,juguetes
+SKU-0289,Sartén Antiadherente 24cm #13,DRY,DRY-R27-C48,193,8.33,abarrotes
+SKU-0290,Azúcar Rubia 1kg #88,DRY,DRY-R5-C34,208,1.03,hogar
+SKU-0291,Sartén Antiadherente 24cm #77,DRY,DRY-R19-C51,426,11.55,juguetes
+SKU-0292,Ch chocolates Milk 100g #92,DRY,DRY-R22-C33,353,6.78,abarrotes
+SKU-0293,Set de Cubiertos x24 #91,DRY,DRY-R17-C39,71,11.53,abarrotes
+SKU-0294,Detergente Líquico 3L #25,DRY,DRY-R13-C57,89,2.34,libros
+SKU-0295,Insulina Rápida #76,TC,TC-R29-C24,30,1.49,carnes
+SKU-0296,Helado de Vainilla 1L #26,TC,TC-R5-C18,146,1.58,bebidas_frias
+SKU-0297,Mantequilla con sal 200g #31,TC,TC-R23-C18,240,3.16,carnes
+SKU-0298,Muñeca de Moda #15,DRY,DRY-R4-C31,490,1.26,libros
+SKU-0299,Galletas de Soda x12 #93,DRY,DRY-R17-C40,218,11.52,hogar
+SKU-0300,Sartén Antiadherente 24cm #90,DRY,DRY-R11-C58,494,4.38,limpieza
+SKU-0301,Suero Fisiológico #48,TC,TC-R4-C14,25,0.46,carnes
+SKU-0302,Agua Mineral Fria 1.5L #69,TC,TC-R22-C6,46,1.77,farmacia
+SKU-0303,Insulina Rápida #61,TC,TC-R13-C5,141,3.83,congelados
+SKU-0304,Atún en Conserva 170g #69,DRY,DRY-R14-C36,131,4.05,snacks
+SKU-0305,Papas Fritas Congeladas 1kg #59,TC,TC-R11-C24,73,3.12,lacteos
+SKU-0306,Ch chocolates Milk 100g #83,DRY,DRY-R5-C46,86,2.89,abarrotes
+SKU-0307,Cargador Carga Rápida #73,DRY,DRY-R31-C45,51,7.49,hogar
+SKU-0308,Cargador Carga Rápida #40,DRY,DRY-R22-C40,29,8.77,hogar
+SKU-0309,Agua Mineral Fria 1.5L #46,TC,TC-R18-C15,37,0.14,farmacia
+SKU-0310,Café Instantáneo 200g #61,DRY,DRY-R32-C48,31,0.73,snacks
+SKU-0311,Café Instantáneo 200g #80,DRY,DRY-R9-C45,263,1.15,abarrotes
+SKU-0312,Galletas de Soda x12 #89,DRY,DRY-R9-C36,54,1.97,hogar
+SKU-0313,Insulina Rápida #28,TC,TC-R19-C6,112,3.05,congelados
+SKU-0314,Detergente Líquico 3L #27,DRY,DRY-R28-C46,270,12.07,limpieza
+SKU-0315,Toalla de Baño #27,DRY,DRY-R21-C46,168,13.97,hogar
+SKU-0316,Papas Fritas Congeladas 1kg #85,TC,TC-R33-C9,140,2.59,bebidas_frias
+SKU-0317,Muñeca de Moda #48,DRY,DRY-R28-C54,193,12.25,juguetes
+SKU-0318,Bebida Energética 500ml #84,TC,TC-R17-C9,195,4.0,lacteos
+SKU-0319,Papel Toalla x6 #86,DRY,DRY-R27-C54,340,4.02,juguetes
+SKU-0320,Muñeca de Moda #83,DRY,DRY-R5-C42,303,10.83,libros
+SKU-0321,Libro Novela Ficción #89,DRY,DRY-R17-C49,353,2.26,hogar
+SKU-0322,Queso Edam 500g #34,TC,TC-R14-C2,117,2.26,bebidas_frias
+SKU-0323,Bebida Energética 500ml #74,TC,TC-R25-C21,130,3.1,carnes
+SKU-0324,Detergente Líquico 3L #27,DRY,DRY-R14-C57,171,3.15,juguetes
+SKU-0325,Toalla de Baño #58,DRY,DRY-R6-C46,240,14.35,electro
+SKU-0326,Set de Cubiertos x24 #55,DRY,DRY-R14-C43,103,9.17,snacks
+SKU-0327,Set de Cubiertos x24 #48,DRY,DRY-R33-C40,157,14.13,snacks
+SKU-0328,Aceite Vegetal 1L #98,DRY,DRY-R11-C55,183,4.79,juguetes
+SKU-0329,Galletas de Soda x12 #46,DRY,DRY-R13-C36,283,8.62,libros
+SKU-0330,Insulina Rápida #28,TC,TC-R7-C9,192,0.31,farmacia
+SKU-0331,Helado de Vainilla 1L #71,TC,TC-R28-C6,147,1.09,farmacia
+SKU-0332,Helado de Vainilla 1L #27,TC,TC-R32-C3,160,3.12,bebidas_frias
+SKU-0333,Lomo de Cerdo 1kg #91,TC,TC-R7-C8,115,0.36,lacteos
+SKU-0334,Queso Edam 500g #97,TC,TC-R22-C21,150,0.77,farmacia
+SKU-0335,Audífonos Bluetooth #93,DRY,DRY-R29-C54,107,7.19,abarrotes
+SKU-0336,Ch chocolates Milk 100g #46,DRY,DRY-R6-C33,50,13.62,snacks
+SKU-0337,Set de Cubiertos x24 #14,DRY,DRY-R9-C39,433,6.3,abarrotes
+SKU-0338,Suero Fisiológico #73,TC,TC-R13-C6,233,4.69,lacteos
+SKU-0339,Papel Toalla x6 #48,DRY,DRY-R28-C34,176,13.93,limpieza
+SKU-0340,Agua Mineral Fria 1.5L #27,TC,TC-R4-C24,79,2.57,bebidas_frias
+SKU-0341,Vacuna Gripe A #30,TC,TC-R32-C20,75,2.35,lacteos
+SKU-0342,Ch chocolates Milk 100g #47,DRY,DRY-R29-C39,443,2.67,limpieza
+SKU-0343,Audífonos Bluetooth #75,DRY,DRY-R21-C46,347,1.35,electro
+SKU-0344,Agua Mineral Fria 1.5L #51,TC,TC-R16-C8,108,0.13,carnes
+SKU-0345,Vacuna Gripe A #48,TC,TC-R13-C17,12,3.64,congelados
+SKU-0346,Lomo de Cerdo 1kg #17,TC,TC-R28-C18,88,0.68,congelados
+SKU-0347,Papas Fritas Congeladas 1kg #98,TC,TC-R6-C5,250,3.23,bebidas_frias
+SKU-0348,Lomo de Cerdo 1kg #38,TC,TC-R15-C5,126,2.44,bebidas_frias
+SKU-0349,Café Instantáneo 200g #63,DRY,DRY-R16-C58,392,13.7,hogar
+SKU-0350,Aceite Vegetal 1L #41,DRY,DRY-R31-C33,275,7.91,juguetes
+SKU-0351,Muñeca de Moda #24,DRY,DRY-R9-C33,467,12.44,limpieza
+SKU-0352,Set de Cubiertos x24 #29,DRY,DRY-R29-C37,271,4.96,hogar
+SKU-0353,Aceite Vegetal 1L #84,DRY,DRY-R11-C55,266,1.41,juguetes
+SKU-0354,Cargador Carga Rápida #26,DRY,DRY-R7-C57,293,6.26,limpieza
+SKU-0355,Papas Fritas Congeladas 1kg #12,TC,TC-R34-C11,10,1.35,farmacia
+SKU-0356,Jabón Lavavajillas 500ml #15,DRY,DRY-R33-C51,37,5.2,hogar
+SKU-0357,Jabón Lavavajillas 500ml #70,DRY,DRY-R7-C31,97,4.34,limpieza
+SKU-0358,Libro Novela Ficción #92,DRY,DRY-R30-C51,461,5.65,libros
+SKU-0359,Suero Fisiológico #20,TC,TC-R5-C20,233,4.82,farmacia
+SKU-0360,Café Instantáneo 200g #25,DRY,DRY-R13-C39,206,14.89,juguetes
+SKU-0361,Atún en Conserva 170g #10,DRY,DRY-R29-C30,242,14.68,juguetes
+SKU-0362,Audífonos Bluetooth #78,DRY,DRY-R16-C49,131,12.36,hogar
+SKU-0363,Galletas de Soda x12 #34,DRY,DRY-R34-C34,343,0.53,abarrotes
+SKU-0364,Papel Toalla x6 #40,DRY,DRY-R13-C40,309,1.06,libros
+SKU-0365,Jugo Naranja 2L #41,TC,TC-R6-C21,122,0.32,bebidas_frias
+SKU-0366,Jugo Naranja 2L #27,TC,TC-R31-C14,69,4.97,carnes
+SKU-0367,Muñeca de Moda #50,DRY,DRY-R14-C46,453,3.59,juguetes
+SKU-0368,Lomo de Cerdo 1kg #62,TC,TC-R13-C9,152,1.45,bebidas_frias
+SKU-0369,Fideos Tallarín 500g #90,DRY,DRY-R6-C52,29,8.36,juguetes
+SKU-0370,Cuaderno Espiral A4 #58,DRY,DRY-R20-C57,218,4.82,juguetes
+SKU-0371,Té Filtrante 100un #33,DRY,DRY-R34-C57,439,7.13,snacks
+SKU-0372,Cerveza Premium 6pack #17,TC,TC-R32-C15,116,2.12,carnes
+SKU-0373,Té Filtrante 100un #41,DRY,DRY-R4-C43,336,3.09,abarrotes
+SKU-0374,Insulina Rápida #21,TC,TC-R18-C15,58,3.65,farmacia
+SKU-0375,Jugo Naranja 2L #19,TC,TC-R14-C6,160,4.04,farmacia
+SKU-0376,Aceite Vegetal 1L #71,DRY,DRY-R15-C40,175,13.05,hogar
+SKU-0377,Pechuga de Pollo 1kg #34,TC,TC-R6-C21,203,0.67,lacteos
+SKU-0378,Bloques de Construcción #36,DRY,DRY-R4-C51,287,13.73,abarrotes
+SKU-0379,Suero Fisiológico #69,TC,TC-R17-C15,88,3.28,congelados
+SKU-0380,Agua Mineral Fria 1.5L #69,TC,TC-R27-C3,194,4.03,bebidas_frias
+SKU-0381,Ch chocolates Milk 100g #36,DRY,DRY-R6-C49,28,4.73,libros
+SKU-0382,Azúcar Rubia 1kg #12,DRY,DRY-R10-C43,304,8.32,abarrotes
+SKU-0383,Papas Pringles Original #29,DRY,DRY-R32-C39,199,4.98,electro
+SKU-0384,Sartén Antiadherente 24cm #80,DRY,DRY-R32-C46,425,3.9,abarrotes
+SKU-0385,Libro Novela Ficción #72,DRY,DRY-R11-C54,412,2.57,juguetes
+SKU-0386,Agua Mineral Fria 1.5L #33,TC,TC-R26-C24,174,2.76,carnes
+SKU-0387,Detergente Líquico 3L #19,DRY,DRY-R26-C31,216,11.48,hogar
+SKU-0388,Yogurt Natural 1kg #29,TC,TC-R8-C2,126,1.17,carnes
+SKU-0389,Agua Mineral Fria 1.5L #94,TC,TC-R22-C14,146,0.18,bebidas_frias
+SKU-0390,Papel Toalla x6 #77,DRY,DRY-R26-C43,151,8.06,limpieza
+SKU-0391,Salchicha Viena x10 #23,TC,TC-R26-C3,71,2.67,farmacia
+SKU-0392,Helado de Vainilla 1L #55,TC,TC-R26-C8,30,4.0,bebidas_frias
+SKU-0393,Cerveza Premium 6pack #82,TC,TC-R13-C8,67,4.95,farmacia
+SKU-0394,Jugo Naranja 2L #21,TC,TC-R8-C12,151,1.96,lacteos
+SKU-0395,Papel Toalla x6 #99,DRY,DRY-R5-C39,437,1.29,juguetes
+SKU-0396,Ch chocolates Milk 100g #82,DRY,DRY-R15-C34,475,13.43,libros
+SKU-0397,Agua Mineral Fria 1.5L #44,TC,TC-R29-C2,185,4.63,carnes
+SKU-0398,Muñeca de Moda #94,DRY,DRY-R8-C31,440,2.73,hogar
+SKU-0399,Mantequilla con sal 200g #60,TC,TC-R15-C3,154,1.57,carnes
+SKU-0400,Vacuna Gripe A #59,TC,TC-R14-C21,212,3.72,farmacia
+SKU-0401,Jabón Lavavajillas 500ml #74,DRY,DRY-R10-C48,228,0.85,juguetes
+SKU-0402,Vacuna Gripe A #87,TC,TC-R21-C21,162,3.11,lacteos
+SKU-0403,Leche UHT 1L #91,TC,TC-R29-C8,125,3.94,congelados
+SKU-0404,Set de Cubiertos x24 #58,DRY,DRY-R11-C52,304,2.83,snacks
+SKU-0405,Bloques de Construcción #47,DRY,DRY-R26-C42,47,10.71,limpieza
+SKU-0406,Mantequilla con sal 200g #59,TC,TC-R22-C9,33,1.87,farmacia
+SKU-0407,Cerveza Premium 6pack #56,TC,TC-R17-C21,43,1.42,congelados
+SKU-0408,Cerveza Premium 6pack #81,TC,TC-R29-C15,36,2.61,farmacia
+SKU-0409,Yogurt Natural 1kg #86,TC,TC-R21-C17,231,3.94,congelados
+SKU-0410,Bebida Energética 500ml #59,TC,TC-R27-C21,240,0.52,congelados
+SKU-0411,Muñeca de Moda #76,DRY,DRY-R34-C37,91,10.3,abarrotes
+SKU-0412,Helado de Vainilla 1L #73,TC,TC-R21-C5,121,0.41,congelados
+SKU-0413,Agua Mineral Fria 1.5L #19,TC,TC-R15-C11,73,1.33,congelados
+SKU-0414,Bloques de Construcción #88,DRY,DRY-R32-C39,74,6.9,electro
+SKU-0415,Vacuna Gripe A #89,TC,TC-R26-C11,94,4.04,farmacia
+SKU-0416,Libro Novela Ficción #86,DRY,DRY-R29-C36,313,4.54,electro
+SKU-0417,Sartén Antiadherente 24cm #50,DRY,DRY-R11-C39,500,14.47,abarrotes
+SKU-0418,Lomo de Cerdo 1kg #51,TC,TC-R23-C11,211,1.47,farmacia
+SKU-0419,Pechuga de Pollo 1kg #85,TC,TC-R23-C15,206,0.98,lacteos
+SKU-0420,Cargador Carga Rápida #36,DRY,DRY-R18-C52,430,11.98,juguetes
+SKU-0421,Audífonos Bluetooth #96,DRY,DRY-R23-C55,160,2.13,libros
+SKU-0422,Bebida Energética 500ml #58,TC,TC-R13-C3,163,2.3,carnes
+SKU-0423,Set de Cubiertos x24 #74,DRY,DRY-R28-C51,409,8.18,electro
+SKU-0424,Set de Cubiertos x24 #86,DRY,DRY-R4-C34,132,1.69,juguetes
+SKU-0425,Fideos Tallarín 500g #92,DRY,DRY-R21-C31,335,8.47,snacks
+SKU-0426,Ch chocolates Milk 100g #65,DRY,DRY-R27-C34,137,0.21,electro
+SKU-0427,Lomo de Cerdo 1kg #67,TC,TC-R22-C11,207,2.02,bebidas_frias
+SKU-0428,Toalla de Baño #29,DRY,DRY-R9-C48,252,14.97,juguetes
+SKU-0429,Yogurt Natural 1kg #24,TC,TC-R25-C23,46,4.71,farmacia
+SKU-0430,Cerveza Premium 6pack #36,TC,TC-R9-C15,131,2.47,congelados
+SKU-0431,Vacuna Gripe A #18,TC,TC-R13-C9,191,0.32,farmacia
+SKU-0432,Queso Edam 500g #96,TC,TC-R7-C23,199,0.91,congelados
+SKU-0433,Salchicha Viena x10 #52,TC,TC-R31-C15,128,2.19,carnes
+SKU-0434,Salchicha Viena x10 #33,TC,TC-R13-C18,111,3.32,farmacia
+SKU-0435,Pechuga de Pollo 1kg #67,TC,TC-R18-C17,11,2.2,bebidas_frias
+SKU-0436,Galletas de Soda x12 #18,DRY,DRY-R22-C34,279,12.0,abarrotes
+SKU-0437,Pechuga de Pollo 1kg #68,TC,TC-R4-C5,230,1.39,congelados
+SKU-0438,Ch chocolates Milk 100g #86,DRY,DRY-R26-C49,305,9.19,juguetes
+SKU-0439,Cerveza Premium 6pack #89,TC,TC-R5-C6,190,4.09,congelados
+SKU-0440,Muñeca de Moda #20,DRY,DRY-R27-C36,127,4.73,hogar
+SKU-0441,Insulina Rápida #98,TC,TC-R19-C5,117,2.6,carnes
+SKU-0442,Té Filtrante 100un #64,DRY,DRY-R21-C39,280,7.33,hogar
+SKU-0443,Fideos Tallarín 500g #81,DRY,DRY-R31-C37,76,7.37,juguetes
+SKU-0444,Jugo Naranja 2L #55,TC,TC-R8-C2,59,2.47,farmacia
+SKU-0445,Toalla de Baño #93,DRY,DRY-R18-C55,256,6.17,hogar
+SKU-0446,Cargador Carga Rápida #72,DRY,DRY-R32-C37,20,1.29,libros
+SKU-0447,Papas Pringles Original #14,DRY,DRY-R26-C43,152,3.41,abarrotes
+SKU-0448,Agua Mineral Fria 1.5L #80,TC,TC-R4-C15,39,0.65,farmacia
+SKU-0449,Insulina Rápida #79,TC,TC-R20-C23,204,3.81,bebidas_frias
+SKU-0450,Aceite Vegetal 1L #64,DRY,DRY-R22-C34,339,11.05,hogar
+SKU-0451,Detergente Líquico 3L #67,DRY,DRY-R13-C43,423,5.26,snacks
+SKU-0452,Lomo de Cerdo 1kg #36,TC,TC-R14-C23,186,3.71,lacteos
+SKU-0453,Bebida Energética 500ml #31,TC,TC-R31-C17,62,0.78,bebidas_frias
+SKU-0454,Detergente Líquico 3L #82,DRY,DRY-R16-C48,310,8.01,libros
+SKU-0455,Papas Pringles Original #47,DRY,DRY-R17-C43,268,14.29,snacks
+SKU-0456,Arroz Extra 5kg #27,DRY,DRY-R20-C51,146,13.79,juguetes
+SKU-0457,Azúcar Rubia 1kg #41,DRY,DRY-R8-C37,429,10.69,abarrotes
+SKU-0458,Agua Mineral Fria 1.5L #28,TC,TC-R9-C17,170,3.2,farmacia
+SKU-0459,Jabón Lavavajillas 500ml #91,DRY,DRY-R13-C34,388,6.07,electro
+SKU-0460,Cerveza Premium 6pack #72,TC,TC-R28-C9,232,2.95,congelados
+SKU-0461,Jabón Lavavajillas 500ml #68,DRY,DRY-R23-C48,412,12.76,juguetes
+SKU-0462,Audífonos Bluetooth #37,DRY,DRY-R18-C55,429,4.06,abarrotes
+SKU-0463,Mantequilla con sal 200g #82,TC,TC-R5-C24,97,2.48,bebidas_frias
+SKU-0464,Detergente Líquico 3L #15,DRY,DRY-R19-C34,433,9.41,libros
+SKU-0465,Fideos Tallarín 500g #66,DRY,DRY-R7-C54,495,0.06,limpieza
+SKU-0466,Azúcar Rubia 1kg #93,DRY,DRY-R25-C45,482,2.43,juguetes
+SKU-0467,Libro Novela Ficción #56,DRY,DRY-R30-C42,345,1.28,limpieza
+SKU-0468,Detergente Líquico 3L #60,DRY,DRY-R28-C45,391,10.9,abarrotes
+SKU-0469,Queso Edam 500g #10,TC,TC-R28-C6,43,2.44,lacteos
+SKU-0470,Cuaderno Espiral A4 #66,DRY,DRY-R14-C30,180,0.17,hogar
+SKU-0471,Audífonos Bluetooth #98,DRY,DRY-R25-C36,122,7.19,libros
+SKU-0472,Queso Edam 500g #50,TC,TC-R19-C11,45,4.42,lacteos
+SKU-0473,Mantequilla con sal 200g #18,TC,TC-R15-C15,166,2.86,carnes
+SKU-0474,Café Instantáneo 200g #37,DRY,DRY-R15-C37,320,13.8,electro
+SKU-0475,Aceite Vegetal 1L #21,DRY,DRY-R20-C34,68,2.14,libros
+SKU-0476,Café Instantáneo 200g #64,DRY,DRY-R7-C46,131,11.88,electro
+SKU-0477,Lomo de Cerdo 1kg #80,TC,TC-R22-C17,165,3.04,lacteos
+SKU-0478,Papas Fritas Congeladas 1kg #36,TC,TC-R8-C15,58,3.07,lacteos
+SKU-0479,Libro Novela Ficción #16,DRY,DRY-R18-C42,62,7.45,snacks
+SKU-0480,Yogurt Natural 1kg #77,TC,TC-R26-C24,102,4.89,bebidas_frias
+SKU-0481,Té Filtrante 100un #82,DRY,DRY-R30-C51,354,5.51,abarrotes
+SKU-0482,Yogurt Natural 1kg #12,TC,TC-R15-C17,77,0.43,farmacia
+SKU-0483,Suero Fisiológico #74,TC,TC-R5-C9,138,3.18,lacteos
+SKU-0484,Té Filtrante 100un #20,DRY,DRY-R33-C57,83,8.09,electro
+SKU-0485,Yogurt Natural 1kg #75,TC,TC-R22-C6,49,4.87,congelados
+SKU-0486,Muñeca de Moda #91,DRY,DRY-R14-C33,228,4.69,electro
+SKU-0487,Atún en Conserva 170g #17,DRY,DRY-R23-C42,227,1.34,libros
+SKU-0488,Jugo Naranja 2L #49,TC,TC-R28-C18,199,3.73,bebidas_frias
+SKU-0489,Mantequilla con sal 200g #99,TC,TC-R9-C2,98,0.9,lacteos
+SKU-0490,Galletas de Soda x12 #31,DRY,DRY-R7-C49,404,1.95,libros
+SKU-0491,Arroz Extra 5kg #13,DRY,DRY-R30-C46,144,12.12,juguetes
+SKU-0492,Muñeca de Moda #90,DRY,DRY-R26-C33,266,7.47,snacks
+SKU-0493,Salchicha Viena x10 #57,TC,TC-R28-C5,36,1.35,farmacia
+SKU-0494,Arroz Extra 5kg #39,DRY,DRY-R34-C55,444,0.09,juguetes
+SKU-0495,Detergente Líquico 3L #70,DRY,DRY-R30-C48,81,5.78,abarrotes
+SKU-0496,Bebida Energética 500ml #38,TC,TC-R25-C9,244,1.32,lacteos
+SKU-0497,Jabón Lavavajillas 500ml #83,DRY,DRY-R8-C49,349,1.84,snacks
+SKU-0498,Atún en Conserva 170g #76,DRY,DRY-R23-C31,40,14.31,abarrotes
+SKU-0499,Papas Pringles Original #49,DRY,DRY-R21-C46,238,1.34,libros
+SKU-0500,Papas Fritas Congeladas 1kg #82,TC,TC-R30-C21,169,1.59,carnes
+SKU-0501,Agua Mineral Fria 1.5L #35,TC,TC-R33-C20,204,4.51,congelados
+SKU-0502,Papel Toalla x6 #62,DRY,DRY-R30-C30,182,3.53,abarrotes
+SKU-0503,Papel Toalla x6 #52,DRY,DRY-R5-C30,197,11.4,juguetes
+SKU-0504,Papas Pringles Original #23,DRY,DRY-R11-C40,126,7.97,juguetes
+SKU-0505,Azúcar Rubia 1kg #45,DRY,DRY-R13-C34,123,0.71,limpieza
+SKU-0506,Audífonos Bluetooth #99,DRY,DRY-R8-C49,387,6.9,hogar
+SKU-0507,Mantequilla con sal 200g #91,TC,TC-R18-C23,161,2.03,lacteos
+SKU-0508,Cuaderno Espiral A4 #26,DRY,DRY-R15-C42,440,4.41,electro
+SKU-0509,Vacuna Gripe A #50,TC,TC-R34-C12,29,1.43,farmacia
+SKU-0510,Muñeca de Moda #23,DRY,DRY-R19-C37,235,1.63,abarrotes
+SKU-0511,Arroz Extra 5kg #78,DRY,DRY-R23-C48,111,14.47,electro
+SKU-0512,Galletas de Soda x12 #25,DRY,DRY-R9-C34,356,2.41,electro
+SKU-0513,Jugo Naranja 2L #37,TC,TC-R27-C23,47,4.3,bebidas_frias
+SKU-0514,Insulina Rápida #60,TC,TC-R5-C15,86,0.34,carnes
+SKU-0515,Leche UHT 1L #61,TC,TC-R6-C24,201,2.32,carnes
+SKU-0516,Cargador Carga Rápida #23,DRY,DRY-R33-C36,36,1.87,limpieza
+SKU-0517,Azúcar Rubia 1kg #35,DRY,DRY-R8-C51,327,5.61,abarrotes
+SKU-0518,Muñeca de Moda #85,DRY,DRY-R8-C43,43,13.77,limpieza
+SKU-0519,Pechuga de Pollo 1kg #92,TC,TC-R30-C12,33,4.07,lacteos
+SKU-0520,Ch chocolates Milk 100g #25,DRY,DRY-R19-C31,30,14.14,libros
+SKU-0521,Bebida Energética 500ml #60,TC,TC-R28-C14,184,0.24,bebidas_frias
+SKU-0522,Aceite Vegetal 1L #33,DRY,DRY-R26-C43,457,4.23,snacks
+SKU-0523,Lomo de Cerdo 1kg #92,TC,TC-R10-C9,235,2.54,bebidas_frias
+SKU-0524,Jabón Lavavajillas 500ml #45,DRY,DRY-R20-C49,107,2.1,limpieza
+SKU-0525,Toalla de Baño #41,DRY,DRY-R9-C58,200,11.93,libros
+SKU-0526,Sartén Antiadherente 24cm #79,DRY,DRY-R7-C55,294,5.19,snacks
+SKU-0527,Galletas de Soda x12 #33,DRY,DRY-R32-C30,117,4.82,electro
+SKU-0528,Jugo Naranja 2L #70,TC,TC-R15-C15,159,1.85,congelados
+SKU-0529,Arroz Extra 5kg #41,DRY,DRY-R19-C42,422,4.03,abarrotes
+SKU-0530,Detergente Líquico 3L #38,DRY,DRY-R26-C49,434,5.35,juguetes
+SKU-0531,Fideos Tallarín 500g #40,DRY,DRY-R10-C46,362,12.1,abarrotes
+SKU-0532,Leche UHT 1L #99,TC,TC-R10-C11,154,4.74,bebidas_frias
+SKU-0533,Agua Mineral Fria 1.5L #79,TC,TC-R18-C9,19,0.96,carnes
+SKU-0534,Lomo de Cerdo 1kg #12,TC,TC-R13-C15,94,2.44,carnes
+SKU-0535,Azúcar Rubia 1kg #53,DRY,DRY-R11-C39,437,13.79,abarrotes
+SKU-0536,Papel Toalla x6 #28,DRY,DRY-R4-C37,438,11.63,limpieza
+SKU-0537,Jabón Lavavajillas 500ml #57,DRY,DRY-R34-C49,177,8.81,snacks
+SKU-0538,Salchicha Viena x10 #65,TC,TC-R34-C21,134,3.23,carnes
+SKU-0539,Set de Cubiertos x24 #98,DRY,DRY-R22-C48,306,3.39,abarrotes
+SKU-0540,Papas Pringles Original #98,DRY,DRY-R16-C45,378,1.95,electro
+SKU-0541,Suero Fisiológico #82,TC,TC-R21-C2,91,0.99,bebidas_frias
+SKU-0542,Atún en Conserva 170g #91,DRY,DRY-R34-C58,259,1.61,hogar
+SKU-0543,Lomo de Cerdo 1kg #54,TC,TC-R23-C9,236,0.92,lacteos
+SKU-0544,Cuaderno Espiral A4 #91,DRY,DRY-R30-C46,140,6.73,libros
+SKU-0545,Insulina Rápida #42,TC,TC-R31-C21,10,0.63,lacteos
+SKU-0546,Bebida Energética 500ml #31,TC,TC-R22-C24,235,2.13,farmacia
+SKU-0547,Suero Fisiológico #22,TC,TC-R23-C23,231,2.45,bebidas_frias
+SKU-0548,Cuaderno Espiral A4 #38,DRY,DRY-R27-C37,414,6.8,libros
+SKU-0549,Papel Toalla x6 #50,DRY,DRY-R10-C43,42,14.28,snacks
+SKU-0550,Salchicha Viena x10 #19,TC,TC-R25-C15,33,4.71,farmacia
+SKU-0551,Agua Mineral Fria 1.5L #13,TC,TC-R22-C12,52,4.72,bebidas_frias
+SKU-0552,Fideos Tallarín 500g #16,DRY,DRY-R21-C34,102,5.0,electro
+SKU-0553,Set de Cubiertos x24 #43,DRY,DRY-R33-C43,54,4.5,hogar
+SKU-0554,Agua Mineral Fria 1.5L #29,TC,TC-R33-C2,119,1.87,bebidas_frias
+SKU-0555,Agua Mineral Fria 1.5L #35,TC,TC-R26-C3,53,0.23,bebidas_frias
+SKU-0556,Sartén Antiadherente 24cm #24,DRY,DRY-R31-C45,246,11.78,limpieza
+SKU-0557,Galletas de Soda x12 #21,DRY,DRY-R10-C58,194,5.84,juguetes
+SKU-0558,Fideos Tallarín 500g #67,DRY,DRY-R21-C31,243,3.99,snacks
+SKU-0559,Jugo Naranja 2L #29,TC,TC-R13-C21,34,3.51,congelados
+SKU-0560,Bebida Energética 500ml #85,TC,TC-R4-C8,225,2.81,congelados
+SKU-0561,Bebida Energética 500ml #78,TC,TC-R7-C20,131,4.35,bebidas_frias
+SKU-0562,Sartén Antiadherente 24cm #48,DRY,DRY-R28-C33,442,5.95,abarrotes
+SKU-0563,Muñeca de Moda #76,DRY,DRY-R9-C37,392,1.85,hogar
+SKU-0564,Aceite Vegetal 1L #34,DRY,DRY-R18-C36,45,0.69,abarrotes
+SKU-0565,Aceite Vegetal 1L #90,DRY,DRY-R10-C37,137,12.52,electro
+SKU-0566,Yogurt Natural 1kg #59,TC,TC-R29-C15,93,2.05,lacteos
+SKU-0567,Cargador Carga Rápida #11,DRY,DRY-R18-C57,62,11.74,hogar
+SKU-0568,Muñeca de Moda #85,DRY,DRY-R20-C34,293,13.88,abarrotes
+SKU-0569,Papas Pringles Original #78,DRY,DRY-R8-C48,140,13.17,libros
+SKU-0570,Agua Mineral Fria 1.5L #14,TC,TC-R5-C6,46,1.45,farmacia
+SKU-0571,Té Filtrante 100un #14,DRY,DRY-R34-C49,174,13.35,juguetes
+SKU-0572,Sartén Antiadherente 24cm #44,DRY,DRY-R8-C49,423,0.35,limpieza
+SKU-0573,Galletas de Soda x12 #72,DRY,DRY-R18-C34,121,14.59,snacks
+SKU-0574,Vacuna Gripe A #44,TC,TC-R31-C20,175,2.14,farmacia
+SKU-0575,Pechuga de Pollo 1kg #62,TC,TC-R6-C21,142,2.47,farmacia
+SKU-0576,Detergente Líquico 3L #75,DRY,DRY-R22-C37,368,1.03,libros
+SKU-0577,Toalla de Baño #82,DRY,DRY-R4-C31,453,2.65,abarrotes
+SKU-0578,Detergente Líquico 3L #41,DRY,DRY-R8-C31,475,6.87,libros
+SKU-0579,Helado de Vainilla 1L #57,TC,TC-R20-C23,111,2.37,carnes
+SKU-0580,Cuaderno Espiral A4 #13,DRY,DRY-R20-C42,309,5.62,limpieza
+SKU-0581,Sartén Antiadherente 24cm #85,DRY,DRY-R18-C58,88,5.28,libros
+SKU-0582,Jabón Lavavajillas 500ml #46,DRY,DRY-R34-C30,88,5.83,snacks
+SKU-0583,Aceite Vegetal 1L #38,DRY,DRY-R33-C40,142,10.18,libros
+SKU-0584,Papel Toalla x6 #97,DRY,DRY-R14-C30,72,7.14,hogar
+SKU-0585,Papel Toalla x6 #38,DRY,DRY-R32-C42,487,9.14,hogar
+SKU-0586,Bebida Energética 500ml #58,TC,TC-R5-C24,74,1.81,congelados
+SKU-0587,Suero Fisiológico #84,TC,TC-R29-C3,179,0.14,congelados
+SKU-0588,Café Instantáneo 200g #81,DRY,DRY-R34-C43,60,4.51,libros
+SKU-0589,Galletas de Soda x12 #91,DRY,DRY-R18-C46,138,12.93,snacks
+SKU-0590,Papas Pringles Original #34,DRY,DRY-R13-C37,128,7.78,juguetes
+SKU-0591,Bloques de Construcción #61,DRY,DRY-R13-C46,374,10.23,libros
+SKU-0592,Papas Fritas Congeladas 1kg #43,TC,TC-R16-C12,198,2.08,farmacia
+SKU-0593,Pechuga de Pollo 1kg #53,TC,TC-R29-C20,185,3.6,bebidas_frias
+SKU-0594,Sartén Antiadherente 24cm #95,DRY,DRY-R25-C48,437,7.63,libros
+SKU-0595,Salchicha Viena x10 #47,TC,TC-R26-C3,199,2.41,bebidas_frias
+SKU-0596,Salchicha Viena x10 #97,TC,TC-R31-C24,32,1.74,bebidas_frias
+SKU-0597,Papas Fritas Congeladas 1kg #63,TC,TC-R32-C21,105,4.45,carnes
+SKU-0598,Cerveza Premium 6pack #25,TC,TC-R13-C14,172,0.36,congelados
+SKU-0599,Jabón Lavavajillas 500ml #70,DRY,DRY-R31-C39,449,7.53,hogar
+SKU-0600,Papas Pringles Original #62,DRY,DRY-R32-C31,82,13.07,hogar
+SKU-0601,Vacuna Gripe A #62,TC,TC-R5-C17,127,4.47,carnes
+SKU-0602,Yogurt Natural 1kg #72,TC,TC-R31-C9,55,3.19,carnes
+SKU-0603,Leche UHT 1L #67,TC,TC-R30-C8,208,1.13,lacteos
+SKU-0604,Agua Mineral Fria 1.5L #21,TC,TC-R13-C5,172,3.11,carnes
+SKU-0605,Sartén Antiadherente 24cm #59,DRY,DRY-R8-C30,107,0.61,electro
+SKU-0606,Ch chocolates Milk 100g #77,DRY,DRY-R27-C39,7,0.32,limpieza
+SKU-0607,Atún en Conserva 170g #98,DRY,DRY-R8-C48,57,4.72,abarrotes
+SKU-0608,Papas Fritas Congeladas 1kg #31,TC,TC-R8-C3,86,4.14,bebidas_frias
+SKU-0609,Toalla de Baño #86,DRY,DRY-R19-C57,459,5.1,electro
+SKU-0610,Ch chocolates Milk 100g #72,DRY,DRY-R25-C48,89,11.26,abarrotes
+SKU-0611,Té Filtrante 100un #12,DRY,DRY-R5-C42,72,3.4,libros
+SKU-0612,Salchicha Viena x10 #25,TC,TC-R18-C11,212,3.58,lacteos
+SKU-0613,Jugo Naranja 2L #86,TC,TC-R30-C2,177,3.34,congelados
+SKU-0614,Arroz Extra 5kg #63,DRY,DRY-R25-C52,285,5.73,limpieza
+SKU-0615,Pechuga de Pollo 1kg #98,TC,TC-R7-C20,87,3.19,carnes
+SKU-0616,Cuaderno Espiral A4 #76,DRY,DRY-R20-C43,363,9.36,limpieza
+SKU-0617,Queso Edam 500g #46,TC,TC-R4-C5,137,3.95,lacteos
+SKU-0618,Helado de Vainilla 1L #76,TC,TC-R21-C6,114,1.85,carnes
+SKU-0619,Agua Mineral Fria 1.5L #36,TC,TC-R8-C20,94,4.67,lacteos
+SKU-0620,Yogurt Natural 1kg #24,TC,TC-R27-C23,136,2.91,lacteos
+SKU-0621,Yogurt Natural 1kg #22,TC,TC-R34-C24,69,1.35,lacteos
+SKU-0622,Galletas de Soda x12 #69,DRY,DRY-R28-C31,94,1.54,snacks
+SKU-0623,Papas Pringles Original #56,DRY,DRY-R5-C46,64,6.42,libros
+SKU-0624,Leche UHT 1L #27,TC,TC-R26-C18,94,3.27,lacteos
+SKU-0625,Helado de Vainilla 1L #21,TC,TC-R21-C11,56,4.09,farmacia
+SKU-0626,Cerveza Premium 6pack #44,TC,TC-R27-C23,227,1.99,farmacia
+SKU-0627,Libro Novela Ficción #31,DRY,DRY-R34-C34,376,2.03,electro
+SKU-0628,Queso Edam 500g #63,TC,TC-R17-C17,155,2.47,carnes
+SKU-0629,Bloques de Construcción #58,DRY,DRY-R25-C48,446,9.19,abarrotes
+SKU-0630,Azúcar Rubia 1kg #71,DRY,DRY-R10-C55,215,1.74,libros
+SKU-0631,Galletas de Soda x12 #93,DRY,DRY-R6-C46,449,0.23,limpieza
+SKU-0632,Muñeca de Moda #82,DRY,DRY-R32-C40,347,14.67,libros
+SKU-0633,Toalla de Baño #98,DRY,DRY-R15-C34,377,6.52,hogar
+SKU-0634,Suero Fisiológico #29,TC,TC-R29-C23,238,4.15,congelados
+SKU-0635,Papel Toalla x6 #92,DRY,DRY-R20-C37,245,7.61,limpieza
+SKU-0636,Fideos Tallarín 500g #19,DRY,DRY-R15-C55,174,4.84,libros
+SKU-0637,Toalla de Baño #38,DRY,DRY-R17-C58,211,9.67,limpieza
+SKU-0638,Cargador Carga Rápida #66,DRY,DRY-R29-C52,260,1.37,limpieza
+SKU-0639,Sartén Antiadherente 24cm #93,DRY,DRY-R23-C30,216,1.58,limpieza
+SKU-0640,Leche UHT 1L #21,TC,TC-R34-C21,168,3.06,bebidas_frias
+SKU-0641,Set de Cubiertos x24 #36,DRY,DRY-R7-C54,191,14.26,hogar
+SKU-0642,Atún en Conserva 170g #68,DRY,DRY-R26-C46,322,8.42,libros
+SKU-0643,Cuaderno Espiral A4 #56,DRY,DRY-R34-C52,393,1.75,juguetes
+SKU-0644,Ch chocolates Milk 100g #55,DRY,DRY-R13-C45,196,8.24,limpieza
+SKU-0645,Fideos Tallarín 500g #73,DRY,DRY-R33-C36,385,12.34,limpieza
+SKU-0646,Galletas de Soda x12 #88,DRY,DRY-R32-C39,481,2.85,limpieza
+SKU-0647,Cargador Carga Rápida #34,DRY,DRY-R33-C46,217,1.66,abarrotes
+SKU-0648,Queso Edam 500g #67,TC,TC-R6-C14,139,3.33,bebidas_frias
+SKU-0649,Leche UHT 1L #77,TC,TC-R34-C20,249,0.34,farmacia
+SKU-0650,Sartén Antiadherente 24cm #75,DRY,DRY-R11-C39,93,10.39,hogar
+SKU-0651,Arroz Extra 5kg #59,DRY,DRY-R15-C46,201,7.59,abarrotes
+SKU-0652,Atún en Conserva 170g #45,DRY,DRY-R5-C51,155,14.46,hogar
+SKU-0653,Azúcar Rubia 1kg #62,DRY,DRY-R6-C57,364,4.52,abarrotes
+SKU-0654,Set de Cubiertos x24 #90,DRY,DRY-R25-C40,324,3.05,snacks
+SKU-0655,Café Instantáneo 200g #96,DRY,DRY-R25-C36,337,14.72,juguetes
+SKU-0656,Toalla de Baño #79,DRY,DRY-R16-C46,394,10.67,abarrotes
+SKU-0657,Bebida Energética 500ml #96,TC,TC-R9-C21,146,4.48,farmacia
+SKU-0658,Leche UHT 1L #76,TC,TC-R31-C3,47,0.22,farmacia
+SKU-0659,Pechuga de Pollo 1kg #44,TC,TC-R11-C21,83,3.95,lacteos
+SKU-0660,Detergente Líquico 3L #98,DRY,DRY-R17-C45,282,3.1,abarrotes
+SKU-0661,Queso Edam 500g #88,TC,TC-R14-C24,153,3.41,farmacia
+SKU-0662,Libro Novela Ficción #81,DRY,DRY-R27-C49,406,3.6,juguetes
+SKU-0663,Papas Pringles Original #98,DRY,DRY-R25-C31,203,13.9,juguetes
+SKU-0664,Cuaderno Espiral A4 #50,DRY,DRY-R19-C58,385,0.85,libros
+SKU-0665,Cerveza Premium 6pack #38,TC,TC-R9-C18,175,3.55,bebidas_frias
+SKU-0666,Pechuga de Pollo 1kg #34,TC,TC-R9-C9,184,2.3,bebidas_frias
+SKU-0667,Queso Edam 500g #58,TC,TC-R26-C2,152,2.2,carnes
+SKU-0668,Helado de Vainilla 1L #10,TC,TC-R30-C9,249,2.39,carnes
+SKU-0669,Vacuna Gripe A #86,TC,TC-R32-C2,170,3.89,carnes
+SKU-0670,Papas Pringles Original #72,DRY,DRY-R17-C58,406,5.4,juguetes
+SKU-0671,Atún en Conserva 170g #33,DRY,DRY-R16-C57,263,1.07,hogar
+SKU-0672,Suero Fisiológico #21,TC,TC-R8-C11,64,1.18,bebidas_frias
+SKU-0673,Café Instantáneo 200g #47,DRY,DRY-R26-C40,321,14.26,snacks
+SKU-0674,Libro Novela Ficción #11,DRY,DRY-R5-C36,233,10.05,hogar
+SKU-0675,Lomo de Cerdo 1kg #15,TC,TC-R5-C20,107,4.44,bebidas_frias
+SKU-0676,Té Filtrante 100un #42,DRY,DRY-R6-C58,17,10.87,limpieza
+SKU-0677,Café Instantáneo 200g #75,DRY,DRY-R33-C55,27,6.71,libros
+SKU-0678,Vacuna Gripe A #75,TC,TC-R18-C3,52,4.75,carnes
+SKU-0679,Set de Cubiertos x24 #78,DRY,DRY-R11-C30,112,9.42,libros
+SKU-0680,Aceite Vegetal 1L #97,DRY,DRY-R34-C51,110,12.54,libros
+SKU-0681,Audífonos Bluetooth #92,DRY,DRY-R20-C33,83,11.22,juguetes
+SKU-0682,Jugo Naranja 2L #21,TC,TC-R13-C3,213,0.37,congelados
+SKU-0683,Lomo de Cerdo 1kg #43,TC,TC-R9-C12,171,2.0,lacteos
+SKU-0684,Papel Toalla x6 #59,DRY,DRY-R9-C36,333,8.05,snacks
+SKU-0685,Muñeca de Moda #15,DRY,DRY-R21-C33,262,5.4,limpieza
+SKU-0686,Yogurt Natural 1kg #46,TC,TC-R19-C21,107,4.64,congelados
+SKU-0687,Agua Mineral Fria 1.5L #30,TC,TC-R17-C15,201,1.18,lacteos
+SKU-0688,Papas Fritas Congeladas 1kg #91,TC,TC-R20-C5,237,1.56,bebidas_frias
+SKU-0689,Libro Novela Ficción #57,DRY,DRY-R16-C30,289,8.33,libros
+SKU-0690,Leche UHT 1L #83,TC,TC-R20-C17,150,2.03,lacteos
+SKU-0691,Aceite Vegetal 1L #54,DRY,DRY-R18-C40,335,6.22,snacks
+SKU-0692,Fideos Tallarín 500g #33,DRY,DRY-R29-C40,134,9.27,abarrotes
+SKU-0693,Jugo Naranja 2L #80,TC,TC-R8-C14,28,3.26,carnes
+SKU-0694,Helado de Vainilla 1L #22,TC,TC-R19-C6,134,3.66,lacteos
+SKU-0695,Azúcar Rubia 1kg #95,DRY,DRY-R13-C42,322,1.55,snacks
+SKU-0696,Vacuna Gripe A #72,TC,TC-R33-C12,178,1.71,carnes
+SKU-0697,Mantequilla con sal 200g #82,TC,TC-R4-C17,90,1.89,bebidas_frias
+SKU-0698,Papel Toalla x6 #50,DRY,DRY-R26-C42,369,11.8,abarrotes
+SKU-0699,Galletas de Soda x12 #56,DRY,DRY-R27-C36,174,10.21,electro
+SKU-0700,Cargador Carga Rápida #55,DRY,DRY-R28-C45,60,7.33,electro
+SKU-0701,Yogurt Natural 1kg #45,TC,TC-R8-C24,238,4.15,bebidas_frias
+SKU-0702,Libro Novela Ficción #19,DRY,DRY-R25-C33,439,13.39,snacks
+SKU-0703,Muñeca de Moda #84,DRY,DRY-R13-C51,113,11.55,limpieza
+SKU-0704,Galletas de Soda x12 #79,DRY,DRY-R5-C58,401,7.11,hogar
+SKU-0705,Lomo de Cerdo 1kg #85,TC,TC-R33-C20,44,4.3,farmacia
+SKU-0706,Jabón Lavavajillas 500ml #60,DRY,DRY-R30-C48,344,7.56,hogar
+SKU-0707,Salchicha Viena x10 #75,TC,TC-R18-C5,55,2.29,bebidas_frias
+SKU-0708,Cuaderno Espiral A4 #28,DRY,DRY-R6-C55,25,14.09,hogar
+SKU-0709,Lomo de Cerdo 1kg #18,TC,TC-R25-C8,20,1.91,farmacia
+SKU-0710,Café Instantáneo 200g #59,DRY,DRY-R21-C54,456,13.77,hogar
+SKU-0711,Queso Edam 500g #76,TC,TC-R9-C18,223,4.17,congelados
+SKU-0712,Set de Cubiertos x24 #82,DRY,DRY-R8-C39,198,5.68,hogar
+SKU-0713,Helado de Vainilla 1L #58,TC,TC-R33-C6,100,2.63,lacteos
+SKU-0714,Sartén Antiadherente 24cm #71,DRY,DRY-R10-C30,76,7.55,snacks
+SKU-0715,Jabón Lavavajillas 500ml #75,DRY,DRY-R32-C43,100,3.21,abarrotes
+SKU-0716,Queso Edam 500g #94,TC,TC-R5-C8,94,2.13,bebidas_frias
+SKU-0717,Cuaderno Espiral A4 #71,DRY,DRY-R32-C54,87,3.2,electro
+SKU-0718,Papel Toalla x6 #41,DRY,DRY-R20-C31,308,1.96,electro
+SKU-0719,Jugo Naranja 2L #83,TC,TC-R22-C5,76,0.37,bebidas_frias
+SKU-0720,Té Filtrante 100un #86,DRY,DRY-R32-C58,454,9.58,hogar
+SKU-0721,Papas Pringles Original #20,DRY,DRY-R23-C40,246,6.77,juguetes
+SKU-0722,Atún en Conserva 170g #62,DRY,DRY-R5-C37,425,11.93,abarrotes
+SKU-0723,Cuaderno Espiral A4 #75,DRY,DRY-R14-C43,356,2.56,hogar
+SKU-0724,Yogurt Natural 1kg #39,TC,TC-R25-C11,37,1.99,farmacia
+SKU-0725,Bebida Energética 500ml #29,TC,TC-R26-C17,131,0.57,bebidas_frias
+SKU-0726,Detergente Líquico 3L #78,DRY,DRY-R28-C55,52,11.3,hogar
+SKU-0727,Bloques de Construcción #79,DRY,DRY-R5-C30,401,13.46,abarrotes
+SKU-0728,Toalla de Baño #63,DRY,DRY-R6-C49,362,13.13,electro
+SKU-0729,Sartén Antiadherente 24cm #58,DRY,DRY-R15-C48,384,8.86,abarrotes
+SKU-0730,Muñeca de Moda #22,DRY,DRY-R4-C52,249,2.05,libros
+SKU-0731,Jabón Lavavajillas 500ml #46,DRY,DRY-R9-C58,101,6.16,libros
+SKU-0732,Queso Edam 500g #76,TC,TC-R7-C2,62,1.94,lacteos
+SKU-0733,Audífonos Bluetooth #56,DRY,DRY-R28-C34,338,2.36,snacks
+SKU-0734,Set de Cubiertos x24 #64,DRY,DRY-R33-C58,146,5.52,snacks
+SKU-0735,Aceite Vegetal 1L #62,DRY,DRY-R19-C58,252,11.77,electro
+SKU-0736,Agua Mineral Fria 1.5L #42,TC,TC-R17-C9,208,2.93,bebidas_frias
+SKU-0737,Azúcar Rubia 1kg #94,DRY,DRY-R9-C36,233,11.23,juguetes
+SKU-0738,Arroz Extra 5kg #37,DRY,DRY-R33-C55,178,6.04,abarrotes
+SKU-0739,Cuaderno Espiral A4 #16,DRY,DRY-R25-C37,330,5.87,hogar
+SKU-0740,Mantequilla con sal 200g #70,TC,TC-R22-C17,26,2.23,lacteos
+SKU-0741,Yogurt Natural 1kg #87,TC,TC-R25-C2,248,3.65,congelados
+SKU-0742,Libro Novela Ficción #76,DRY,DRY-R7-C45,310,10.69,hogar
+SKU-0743,Agua Mineral Fria 1.5L #66,TC,TC-R9-C2,178,1.09,carnes
+SKU-0744,Papas Pringles Original #34,DRY,DRY-R9-C31,266,11.77,hogar
+SKU-0745,Bloques de Construcción #31,DRY,DRY-R11-C31,340,5.43,abarrotes
+SKU-0746,Yogurt Natural 1kg #45,TC,TC-R28-C21,181,2.06,carnes
+SKU-0747,Pechuga de Pollo 1kg #76,TC,TC-R11-C2,27,3.71,bebidas_frias
+SKU-0748,Papas Pringles Original #81,DRY,DRY-R13-C48,422,5.24,hogar
+SKU-0749,Pechuga de Pollo 1kg #68,TC,TC-R7-C12,76,2.92,bebidas_frias
+SKU-0750,Queso Edam 500g #81,TC,TC-R13-C3,97,2.57,bebidas_frias
+SKU-0751,Toalla de Baño #42,DRY,DRY-R34-C57,299,12.21,libros
+SKU-0752,Suero Fisiológico #82,TC,TC-R20-C14,203,3.87,farmacia
+SKU-0753,Cerveza Premium 6pack #85,TC,TC-R10-C24,39,0.23,farmacia
+SKU-0754,Lomo de Cerdo 1kg #96,TC,TC-R16-C20,90,1.23,farmacia
+SKU-0755,Toalla de Baño #78,DRY,DRY-R14-C30,139,10.53,snacks
+SKU-0756,Suero Fisiológico #96,TC,TC-R10-C21,29,4.12,lacteos
+SKU-0757,Sartén Antiadherente 24cm #50,DRY,DRY-R19-C48,298,3.32,abarrotes
+SKU-0758,Agua Mineral Fria 1.5L #35,TC,TC-R8-C8,233,3.7,carnes
+SKU-0759,Pechuga de Pollo 1kg #41,TC,TC-R28-C23,49,3.13,carnes
+SKU-0760,Jabón Lavavajillas 500ml #96,DRY,DRY-R16-C55,396,9.23,limpieza
+SKU-0761,Sartén Antiadherente 24cm #57,DRY,DRY-R7-C46,456,7.41,limpieza
+SKU-0762,Galletas de Soda x12 #72,DRY,DRY-R18-C39,473,14.77,libros
+SKU-0763,Atún en Conserva 170g #83,DRY,DRY-R20-C36,414,0.86,electro
+SKU-0764,Detergente Líquico 3L #74,DRY,DRY-R11-C48,356,5.94,hogar
+SKU-0765,Arroz Extra 5kg #99,DRY,DRY-R13-C57,357,6.93,electro
+SKU-0766,Suero Fisiológico #84,TC,TC-R28-C3,166,1.69,carnes
+SKU-0767,Set de Cubiertos x24 #43,DRY,DRY-R15-C42,495,4.08,abarrotes
+SKU-0768,Fideos Tallarín 500g #73,DRY,DRY-R34-C51,363,3.2,snacks
+SKU-0769,Té Filtrante 100un #45,DRY,DRY-R32-C52,72,2.74,snacks
+SKU-0770,Atún en Conserva 170g #22,DRY,DRY-R20-C43,289,12.07,juguetes
+SKU-0771,Aceite Vegetal 1L #28,DRY,DRY-R13-C37,9,7.12,electro
+SKU-0772,Mantequilla con sal 200g #90,TC,TC-R7-C15,90,2.72,farmacia
+SKU-0773,Galletas de Soda x12 #81,DRY,DRY-R25-C31,358,6.01,snacks
+SKU-0774,Helado de Vainilla 1L #70,TC,TC-R29-C23,125,3.19,carnes
+SKU-0775,Café Instantáneo 200g #56,DRY,DRY-R28-C58,419,8.38,snacks
+SKU-0776,Bebida Energética 500ml #25,TC,TC-R9-C11,165,4.35,lacteos
+SKU-0777,Salchicha Viena x10 #46,TC,TC-R11-C11,140,1.69,bebidas_frias
+SKU-0778,Cargador Carga Rápida #20,DRY,DRY-R18-C49,242,9.22,juguetes
+SKU-0779,Fideos Tallarín 500g #91,DRY,DRY-R32-C46,318,6.36,abarrotes
+SKU-0780,Jabón Lavavajillas 500ml #20,DRY,DRY-R26-C37,165,5.19,libros
+SKU-0781,Helado de Vainilla 1L #87,TC,TC-R16-C18,237,2.04,congelados
+SKU-0782,Café Instantáneo 200g #85,DRY,DRY-R16-C57,216,14.48,libros
+SKU-0783,Mantequilla con sal 200g #40,TC,TC-R25-C18,200,1.33,lacteos
+SKU-0784,Aceite Vegetal 1L #31,DRY,DRY-R4-C51,37,1.59,limpieza
+SKU-0785,Set de Cubiertos x24 #16,DRY,DRY-R32-C30,273,11.58,electro
+SKU-0786,Arroz Extra 5kg #43,DRY,DRY-R19-C37,481,1.31,limpieza
+SKU-0787,Atún en Conserva 170g #41,DRY,DRY-R4-C45,69,6.68,snacks
+SKU-0788,Leche UHT 1L #14,TC,TC-R26-C18,244,1.85,carnes
+SKU-0789,Cerveza Premium 6pack #79,TC,TC-R29-C8,44,2.79,farmacia
+SKU-0790,Set de Cubiertos x24 #32,DRY,DRY-R7-C54,330,9.48,juguetes
+SKU-0791,Toalla de Baño #91,DRY,DRY-R30-C57,182,4.68,electro
+SKU-0792,Jabón Lavavajillas 500ml #66,DRY,DRY-R31-C45,138,5.52,abarrotes
+SKU-0793,Leche UHT 1L #76,TC,TC-R16-C23,44,3.82,lacteos
+SKU-0794,Leche UHT 1L #98,TC,TC-R25-C14,132,4.74,farmacia
+SKU-0795,Papas Fritas Congeladas 1kg #86,TC,TC-R6-C8,150,4.0,farmacia
+SKU-0796,Bebida Energética 500ml #60,TC,TC-R16-C8,198,0.9,farmacia
+SKU-0797,Té Filtrante 100un #38,DRY,DRY-R13-C43,325,1.23,libros
+SKU-0798,Helado de Vainilla 1L #46,TC,TC-R18-C18,217,3.74,bebidas_frias
+SKU-0799,Yogurt Natural 1kg #33,TC,TC-R16-C5,173,1.52,carnes
+SKU-0800,Galletas de Soda x12 #99,DRY,DRY-R15-C55,14,2.86,electro
+SKU-0801,Leche UHT 1L #33,TC,TC-R29-C3,42,1.48,bebidas_frias
+SKU-0802,Papel Toalla x6 #39,DRY,DRY-R9-C34,257,2.3,juguetes
+SKU-0803,Papas Fritas Congeladas 1kg #73,TC,TC-R21-C11,212,2.37,farmacia
+SKU-0804,Mantequilla con sal 200g #17,TC,TC-R26-C8,28,3.9,lacteos
+SKU-0805,Aceite Vegetal 1L #42,DRY,DRY-R18-C49,67,12.43,abarrotes
+SKU-0806,Atún en Conserva 170g #59,DRY,DRY-R23-C52,22,3.75,juguetes
+SKU-0807,Pechuga de Pollo 1kg #70,TC,TC-R31-C11,89,3.44,lacteos
+SKU-0808,Libro Novela Ficción #15,DRY,DRY-R16-C58,134,7.84,abarrotes
+SKU-0809,Aceite Vegetal 1L #56,DRY,DRY-R30-C31,116,12.96,snacks
+SKU-0810,Libro Novela Ficción #65,DRY,DRY-R18-C46,411,0.28,abarrotes
+SKU-0811,Suero Fisiológico #41,TC,TC-R8-C2,158,4.85,lacteos
+SKU-0812,Bloques de Construcción #29,DRY,DRY-R7-C49,132,11.57,electro
+SKU-0813,Vacuna Gripe A #90,TC,TC-R5-C3,175,0.39,lacteos
+SKU-0814,Queso Edam 500g #26,TC,TC-R22-C14,152,1.24,bebidas_frias
+SKU-0815,Café Instantáneo 200g #66,DRY,DRY-R29-C39,198,0.37,libros
+SKU-0816,Helado de Vainilla 1L #15,TC,TC-R21-C14,153,3.56,carnes
+SKU-0817,Pechuga de Pollo 1kg #82,TC,TC-R13-C6,92,2.76,farmacia
+SKU-0818,Bloques de Construcción #80,DRY,DRY-R25-C37,84,1.08,snacks
+SKU-0819,Galletas de Soda x12 #79,DRY,DRY-R33-C48,402,6.84,libros
+SKU-0820,Fideos Tallarín 500g #12,DRY,DRY-R30-C48,127,11.65,electro
+SKU-0821,Suero Fisiológico #34,TC,TC-R11-C15,206,3.45,lacteos
+SKU-0822,Papas Pringles Original #51,DRY,DRY-R18-C51,61,9.63,hogar
+SKU-0823,Jugo Naranja 2L #26,TC,TC-R8-C6,61,4.38,lacteos
+SKU-0824,Queso Edam 500g #14,TC,TC-R6-C17,109,3.24,carnes
+SKU-0825,Bloques de Construcción #99,DRY,DRY-R5-C43,118,0.78,hogar
+SKU-0826,Papel Toalla x6 #36,DRY,DRY-R15-C55,431,13.93,limpieza
+SKU-0827,Insulina Rápida #81,TC,TC-R7-C21,116,4.7,lacteos
+SKU-0828,Detergente Líquico 3L #88,DRY,DRY-R16-C43,380,7.96,libros
+SKU-0829,Yogurt Natural 1kg #37,TC,TC-R8-C15,195,0.58,congelados
+SKU-0830,Pechuga de Pollo 1kg #34,TC,TC-R13-C15,155,3.32,farmacia
+SKU-0831,Set de Cubiertos x24 #81,DRY,DRY-R25-C51,397,11.2,abarrotes
+SKU-0832,Cuaderno Espiral A4 #68,DRY,DRY-R6-C52,90,13.25,snacks
+SKU-0833,Té Filtrante 100un #74,DRY,DRY-R32-C46,278,9.88,hogar
+SKU-0834,Café Instantáneo 200g #50,DRY,DRY-R17-C58,171,14.87,electro
+SKU-0835,Libro Novela Ficción #65,DRY,DRY-R17-C46,293,9.15,electro
+SKU-0836,Set de Cubiertos x24 #42,DRY,DRY-R26-C48,234,14.43,electro
+SKU-0837,Detergente Líquico 3L #46,DRY,DRY-R21-C30,460,7.79,limpieza
+SKU-0838,Lomo de Cerdo 1kg #37,TC,TC-R7-C24,207,1.64,congelados
+SKU-0839,Galletas de Soda x12 #80,DRY,DRY-R5-C57,479,8.37,juguetes
+SKU-0840,Detergente Líquico 3L #68,DRY,DRY-R21-C48,140,2.38,limpieza
+SKU-0841,Lomo de Cerdo 1kg #39,TC,TC-R20-C8,33,4.07,bebidas_frias
+SKU-0842,Aceite Vegetal 1L #19,DRY,DRY-R18-C46,93,11.9,hogar
+SKU-0843,Muñeca de Moda #22,DRY,DRY-R22-C45,418,0.61,juguetes
+SKU-0844,Detergente Líquico 3L #52,DRY,DRY-R13-C48,227,13.2,limpieza
+SKU-0845,Arroz Extra 5kg #39,DRY,DRY-R16-C30,328,9.53,libros
+SKU-0846,Jugo Naranja 2L #50,TC,TC-R20-C15,93,2.87,congelados
+SKU-0847,Azúcar Rubia 1kg #16,DRY,DRY-R31-C49,390,14.57,abarrotes
+SKU-0848,Jabón Lavavajillas 500ml #38,DRY,DRY-R11-C52,206,4.38,hogar
+SKU-0849,Yogurt Natural 1kg #70,TC,TC-R6-C17,150,3.75,congelados
+SKU-0850,Suero Fisiológico #74,TC,TC-R25-C12,43,3.89,lacteos
+SKU-0851,Set de Cubiertos x24 #35,DRY,DRY-R10-C55,297,5.96,electro
+SKU-0852,Lomo de Cerdo 1kg #41,TC,TC-R11-C3,120,1.4,bebidas_frias
+SKU-0853,Yogurt Natural 1kg #24,TC,TC-R30-C18,103,2.13,bebidas_frias
+SKU-0854,Insulina Rápida #86,TC,TC-R21-C18,88,0.22,congelados
+SKU-0855,Cerveza Premium 6pack #89,TC,TC-R21-C5,246,2.26,congelados
+SKU-0856,Cuaderno Espiral A4 #57,DRY,DRY-R19-C37,441,11.38,abarrotes
+SKU-0857,Lomo de Cerdo 1kg #89,TC,TC-R22-C5,219,4.36,lacteos
+SKU-0858,Queso Edam 500g #49,TC,TC-R33-C12,94,2.41,congelados
+SKU-0859,Pechuga de Pollo 1kg #36,TC,TC-R23-C15,76,2.66,bebidas_frias
+SKU-0860,Azúcar Rubia 1kg #98,DRY,DRY-R23-C30,468,5.68,hogar
+SKU-0861,Galletas de Soda x12 #31,DRY,DRY-R7-C33,409,4.3,limpieza
+SKU-0862,Detergente Líquico 3L #69,DRY,DRY-R13-C30,343,1.05,snacks
+SKU-0863,Queso Edam 500g #12,TC,TC-R8-C9,176,4.35,congelados
+SKU-0864,Queso Edam 500g #50,TC,TC-R21-C14,146,4.35,farmacia
+SKU-0865,Cerveza Premium 6pack #81,TC,TC-R21-C20,73,0.21,carnes
+SKU-0866,Ch chocolates Milk 100g #72,DRY,DRY-R31-C49,14,11.18,snacks
+SKU-0867,Insulina Rápida #90,TC,TC-R14-C9,138,1.26,congelados
+SKU-0868,Helado de Vainilla 1L #59,TC,TC-R26-C24,17,5.0,lacteos
+SKU-0869,Atún en Conserva 170g #29,DRY,DRY-R5-C48,341,13.46,snacks
+SKU-0870,Lomo de Cerdo 1kg #63,TC,TC-R11-C8,119,2.91,farmacia
+SKU-0871,Ch chocolates Milk 100g #67,DRY,DRY-R8-C58,339,2.02,hogar
+SKU-0872,Pechuga de Pollo 1kg #27,TC,TC-R18-C9,240,3.47,bebidas_frias
+SKU-0873,Audífonos Bluetooth #28,DRY,DRY-R33-C58,167,13.76,abarrotes
+SKU-0874,Queso Edam 500g #33,TC,TC-R22-C9,47,4.21,bebidas_frias
+SKU-0875,Ch chocolates Milk 100g #62,DRY,DRY-R20-C51,386,4.59,libros
+SKU-0876,Galletas de Soda x12 #29,DRY,DRY-R23-C39,99,1.65,juguetes
+SKU-0877,Helado de Vainilla 1L #87,TC,TC-R4-C17,162,3.1,bebidas_frias
+SKU-0878,Insulina Rápida #20,TC,TC-R8-C20,44,3.92,lacteos
+SKU-0879,Sartén Antiadherente 24cm #93,DRY,DRY-R9-C49,203,2.8,hogar
+SKU-0880,Fideos Tallarín 500g #34,DRY,DRY-R34-C40,396,0.53,abarrotes
+SKU-0881,Audífonos Bluetooth #38,DRY,DRY-R8-C40,38,11.38,snacks
+SKU-0882,Agua Mineral Fria 1.5L #98,TC,TC-R27-C9,237,4.35,farmacia
+SKU-0883,Jugo Naranja 2L #87,TC,TC-R34-C20,194,4.14,farmacia
+SKU-0884,Jugo Naranja 2L #76,TC,TC-R32-C3,221,2.31,bebidas_frias
+SKU-0885,Toalla de Baño #78,DRY,DRY-R34-C49,25,14.76,abarrotes
+SKU-0886,Libro Novela Ficción #16,DRY,DRY-R26-C39,208,4.4,hogar
+SKU-0887,Papas Pringles Original #69,DRY,DRY-R31-C37,318,6.37,libros
+SKU-0888,Toalla de Baño #28,DRY,DRY-R15-C54,236,12.46,juguetes
+SKU-0889,Queso Edam 500g #33,TC,TC-R27-C21,238,2.97,bebidas_frias
+SKU-0890,Té Filtrante 100un #62,DRY,DRY-R17-C46,96,6.79,abarrotes
+SKU-0891,Aceite Vegetal 1L #68,DRY,DRY-R9-C34,359,3.79,juguetes
+SKU-0892,Fideos Tallarín 500g #25,DRY,DRY-R10-C34,235,1.76,juguetes
+SKU-0893,Toalla de Baño #59,DRY,DRY-R5-C57,86,9.2,limpieza
+SKU-0894,Jugo Naranja 2L #31,TC,TC-R32-C9,178,2.87,farmacia
+SKU-0895,Azúcar Rubia 1kg #32,DRY,DRY-R29-C31,163,6.32,abarrotes
+SKU-0896,Papas Pringles Original #90,DRY,DRY-R16-C39,72,1.81,electro
+SKU-0897,Bloques de Construcción #42,DRY,DRY-R17-C30,442,6.91,limpieza
+SKU-0898,Papel Toalla x6 #87,DRY,DRY-R17-C55,306,3.61,libros
+SKU-0899,Audífonos Bluetooth #66,DRY,DRY-R29-C33,8,9.04,electro
+SKU-0900,Helado de Vainilla 1L #89,TC,TC-R6-C18,221,2.83,bebidas_frias
+SKU-0901,Mantequilla con sal 200g #17,TC,TC-R20-C18,47,1.81,carnes
+SKU-0902,Muñeca de Moda #87,DRY,DRY-R20-C45,49,5.0,juguetes
+SKU-0903,Salchicha Viena x10 #30,TC,TC-R31-C18,179,1.49,farmacia
+SKU-0904,Muñeca de Moda #81,DRY,DRY-R11-C39,388,14.5,hogar
+SKU-0905,Jabón Lavavajillas 500ml #48,DRY,DRY-R16-C46,199,5.56,limpieza
+SKU-0906,Audífonos Bluetooth #80,DRY,DRY-R13-C33,73,4.43,libros
+SKU-0907,Vacuna Gripe A #77,TC,TC-R13-C12,188,2.67,congelados
+SKU-0908,Queso Edam 500g #83,TC,TC-R31-C20,145,4.9,lacteos
+SKU-0909,Bloques de Construcción #46,DRY,DRY-R6-C52,167,9.15,electro
+SKU-0910,Insulina Rápida #26,TC,TC-R30-C17,143,2.86,bebidas_frias
+SKU-0911,Sartén Antiadherente 24cm #33,DRY,DRY-R10-C42,104,10.64,electro
+SKU-0912,Cerveza Premium 6pack #90,TC,TC-R5-C23,227,0.68,lacteos
+SKU-0913,Bebida Energética 500ml #62,TC,TC-R29-C2,153,1.74,bebidas_frias
+SKU-0914,Papel Toalla x6 #91,DRY,DRY-R7-C40,135,10.37,abarrotes
+SKU-0915,Papas Pringles Original #74,DRY,DRY-R17-C58,8,4.89,snacks
+SKU-0916,Vacuna Gripe A #60,TC,TC-R28-C20,17,2.89,congelados
+SKU-0917,Ch chocolates Milk 100g #53,DRY,DRY-R32-C54,413,13.75,abarrotes
+SKU-0918,Agua Mineral Fria 1.5L #29,TC,TC-R6-C18,231,2.36,carnes
+SKU-0919,Cargador Carga Rápida #62,DRY,DRY-R34-C31,158,12.53,snacks
+SKU-0920,Ch chocolates Milk 100g #81,DRY,DRY-R32-C57,300,0.33,juguetes
+SKU-0921,Café Instantáneo 200g #18,DRY,DRY-R11-C37,20,4.24,libros
+SKU-0922,Salchicha Viena x10 #83,TC,TC-R26-C17,162,2.01,farmacia
+SKU-0923,Vacuna Gripe A #14,TC,TC-R29-C8,137,2.13,congelados
+SKU-0924,Cargador Carga Rápida #48,DRY,DRY-R23-C40,94,7.9,snacks
+SKU-0925,Pechuga de Pollo 1kg #21,TC,TC-R30-C12,214,2.58,lacteos
+SKU-0926,Azúcar Rubia 1kg #34,DRY,DRY-R4-C48,380,13.86,hogar
+SKU-0927,Ch chocolates Milk 100g #28,DRY,DRY-R18-C34,485,12.34,snacks
+SKU-0928,Aceite Vegetal 1L #14,DRY,DRY-R10-C54,447,5.84,abarrotes
+SKU-0929,Papas Pringles Original #15,DRY,DRY-R6-C34,460,5.03,limpieza
+SKU-0930,Papas Fritas Congeladas 1kg #12,TC,TC-R9-C17,173,3.82,bebidas_frias
+SKU-0931,Aceite Vegetal 1L #34,DRY,DRY-R7-C45,168,4.19,snacks
+SKU-0932,Arroz Extra 5kg #44,DRY,DRY-R11-C37,63,2.4,juguetes
+SKU-0933,Queso Edam 500g #36,TC,TC-R21-C15,91,1.82,bebidas_frias
+SKU-0934,Lomo de Cerdo 1kg #31,TC,TC-R11-C3,238,1.63,congelados
+SKU-0935,Jugo Naranja 2L #26,TC,TC-R19-C2,182,2.41,farmacia
+SKU-0936,Jugo Naranja 2L #21,TC,TC-R20-C12,190,2.02,farmacia
+SKU-0937,Libro Novela Ficción #98,DRY,DRY-R27-C52,164,9.26,hogar
+SKU-0938,Yogurt Natural 1kg #69,TC,TC-R4-C17,218,0.75,carnes
+SKU-0939,Cargador Carga Rápida #22,DRY,DRY-R6-C54,334,4.69,juguetes
+SKU-0940,Sartén Antiadherente 24cm #39,DRY,DRY-R32-C40,463,2.2,electro
+SKU-0941,Té Filtrante 100un #33,DRY,DRY-R25-C46,456,11.84,snacks
+SKU-0942,Leche UHT 1L #18,TC,TC-R16-C14,132,0.65,farmacia
+SKU-0943,Papas Pringles Original #54,DRY,DRY-R19-C36,212,7.64,abarrotes
+SKU-0944,Arroz Extra 5kg #51,DRY,DRY-R23-C58,410,9.76,libros
+SKU-0945,Suero Fisiológico #85,TC,TC-R13-C12,72,1.27,farmacia
+SKU-0946,Té Filtrante 100un #18,DRY,DRY-R4-C48,360,3.16,electro
+SKU-0947,Audífonos Bluetooth #82,DRY,DRY-R6-C48,125,8.19,libros
+SKU-0948,Agua Mineral Fria 1.5L #24,TC,TC-R18-C17,93,3.02,lacteos
+SKU-0949,Cargador Carga Rápida #32,DRY,DRY-R31-C45,40,14.34,libros
+SKU-0950,Bloques de Construcción #58,DRY,DRY-R21-C46,343,7.44,juguetes
+SKU-0951,Mantequilla con sal 200g #84,TC,TC-R33-C24,217,3.8,carnes
+SKU-0952,Mantequilla con sal 200g #67,TC,TC-R16-C15,167,1.53,carnes
+SKU-0953,Aceite Vegetal 1L #97,DRY,DRY-R9-C46,411,4.53,abarrotes
+SKU-0954,Audífonos Bluetooth #54,DRY,DRY-R8-C34,318,8.76,snacks
+SKU-0955,Azúcar Rubia 1kg #47,DRY,DRY-R9-C33,286,5.57,electro
+SKU-0956,Set de Cubiertos x24 #55,DRY,DRY-R31-C34,448,12.93,limpieza
+SKU-0957,Suero Fisiológico #90,TC,TC-R22-C9,113,3.59,farmacia
+SKU-0958,Pechuga de Pollo 1kg #94,TC,TC-R5-C6,58,2.43,bebidas_frias
+SKU-0959,Café Instantáneo 200g #63,DRY,DRY-R17-C37,451,4.36,libros
+SKU-0960,Papel Toalla x6 #19,DRY,DRY-R21-C30,458,2.2,abarrotes
+SKU-0961,Azúcar Rubia 1kg #20,DRY,DRY-R30-C36,217,9.65,electro
+SKU-0962,Bloques de Construcción #64,DRY,DRY-R15-C39,222,6.84,libros
+SKU-0963,Té Filtrante 100un #55,DRY,DRY-R34-C40,314,2.83,electro
+SKU-0964,Lomo de Cerdo 1kg #74,TC,TC-R27-C8,149,2.11,farmacia
+SKU-0965,Detergente Líquico 3L #82,DRY,DRY-R5-C55,62,10.59,limpieza
+SKU-0966,Jabón Lavavajillas 500ml #28,DRY,DRY-R22-C57,389,14.75,juguetes
+SKU-0967,Toalla de Baño #20,DRY,DRY-R18-C57,50,13.35,electro
+SKU-0968,Papas Fritas Congeladas 1kg #88,TC,TC-R33-C2,146,4.53,lacteos
+SKU-0969,Cargador Carga Rápida #75,DRY,DRY-R21-C54,174,8.63,electro
+SKU-0970,Papas Pringles Original #47,DRY,DRY-R32-C37,477,0.58,libros
+SKU-0971,Muñeca de Moda #43,DRY,DRY-R8-C33,301,9.46,snacks
+SKU-0972,Papas Fritas Congeladas 1kg #89,TC,TC-R18-C2,31,1.51,lacteos
+SKU-0973,Helado de Vainilla 1L #42,TC,TC-R14-C5,80,3.12,lacteos
+SKU-0974,Arroz Extra 5kg #87,DRY,DRY-R8-C39,383,13.66,limpieza
+SKU-0975,Insulina Rápida #32,TC,TC-R22-C8,70,3.93,farmacia
+SKU-0976,Toalla de Baño #14,DRY,DRY-R7-C48,500,14.76,libros
+SKU-0977,Agua Mineral Fria 1.5L #62,TC,TC-R22-C21,179,1.98,carnes
+SKU-0978,Fideos Tallarín 500g #36,DRY,DRY-R9-C48,140,0.86,juguetes
+SKU-0979,Detergente Líquico 3L #31,DRY,DRY-R16-C54,159,6.01,limpieza
+SKU-0980,Set de Cubiertos x24 #39,DRY,DRY-R16-C49,204,10.27,libros
+SKU-0981,Toalla de Baño #65,DRY,DRY-R17-C30,413,4.37,abarrotes
+SKU-0982,Ch chocolates Milk 100g #77,DRY,DRY-R18-C31,277,1.51,juguetes
+SKU-0983,Audífonos Bluetooth #88,DRY,DRY-R23-C43,141,5.06,libros
+SKU-0984,Libro Novela Ficción #84,DRY,DRY-R29-C49,350,6.94,snacks
+SKU-0985,Cuaderno Espiral A4 #85,DRY,DRY-R31-C39,351,7.82,juguetes
+SKU-0986,Ch chocolates Milk 100g #80,DRY,DRY-R15-C30,430,10.11,abarrotes
+SKU-0987,Queso Edam 500g #77,TC,TC-R30-C3,99,3.46,farmacia
+SKU-0988,Helado de Vainilla 1L #34,TC,TC-R22-C2,33,0.22,congelados
+SKU-0989,Pechuga de Pollo 1kg #86,TC,TC-R11-C18,40,0.7,bebidas_frias
+SKU-0990,Mantequilla con sal 200g #58,TC,TC-R22-C18,175,3.84,bebidas_frias
+SKU-0991,Arroz Extra 5kg #99,DRY,DRY-R19-C39,244,3.84,abarrotes
+SKU-0992,Libro Novela Ficción #68,DRY,DRY-R28-C43,359,11.55,limpieza
+SKU-0993,Ch chocolates Milk 100g #42,DRY,DRY-R26-C37,146,11.72,libros
+SKU-0994,Té Filtrante 100un #52,DRY,DRY-R7-C33,421,3.91,electro
+SKU-0995,Yogurt Natural 1kg #72,TC,TC-R20-C6,55,3.09,farmacia
+SKU-0996,Azúcar Rubia 1kg #79,DRY,DRY-R10-C52,334,3.31,limpieza
+SKU-0997,Helado de Vainilla 1L #23,TC,TC-R22-C2,156,0.46,farmacia
+SKU-0998,Cargador Carga Rápida #12,DRY,DRY-R21-C55,332,2.28,libros
+SKU-0999,Suero Fisiológico #44,TC,TC-R25-C5,241,3.53,lacteos
+SKU-1000,Agua Mineral Fria 1.5L #71,TC,TC-R26-C12,196,2.08,lacteos
+SKU-1001,Jabón Lavavajillas 500ml #79,DRY,DRY-R34-C40,493,0.1,libros
+SKU-1002,Sartén Antiadherente 24cm #25,DRY,DRY-R32-C57,188,14.03,libros
+SKU-1003,Suero Fisiológico #17,TC,TC-R8-C18,175,4.99,congelados
+SKU-1004,Vacuna Gripe A #20,TC,TC-R30-C23,206,2.35,bebidas_frias
+SKU-1005,Salchicha Viena x10 #80,TC,TC-R26-C2,179,4.84,carnes
+SKU-1006,Queso Edam 500g #90,TC,TC-R8-C20,31,1.86,farmacia
+SKU-1007,Aceite Vegetal 1L #27,DRY,DRY-R11-C31,373,2.94,electro
+SKU-1008,Sartén Antiadherente 24cm #59,DRY,DRY-R10-C33,334,11.9,abarrotes
+SKU-1009,Cerveza Premium 6pack #12,TC,TC-R23-C2,96,1.76,bebidas_frias
+SKU-1010,Té Filtrante 100un #25,DRY,DRY-R18-C40,346,12.12,limpieza
+SKU-1011,Set de Cubiertos x24 #29,DRY,DRY-R10-C42,23,13.88,juguetes
+SKU-1012,Libro Novela Ficción #12,DRY,DRY-R23-C54,321,13.61,electro
+SKU-1013,Leche UHT 1L #32,TC,TC-R8-C18,88,0.34,carnes
+SKU-1014,Cargador Carga Rápida #88,DRY,DRY-R4-C39,37,12.54,limpieza
+SKU-1015,Arroz Extra 5kg #73,DRY,DRY-R28-C40,108,0.99,limpieza
+SKU-1016,Cuaderno Espiral A4 #61,DRY,DRY-R18-C46,355,1.86,libros
+SKU-1017,Ch chocolates Milk 100g #37,DRY,DRY-R22-C31,176,8.92,abarrotes
+SKU-1018,Mantequilla con sal 200g #63,TC,TC-R34-C5,151,3.51,congelados
+SKU-1019,Jugo Naranja 2L #27,TC,TC-R28-C3,171,3.98,carnes
+SKU-1020,Fideos Tallarín 500g #12,DRY,DRY-R9-C55,8,1.26,libros
+SKU-1021,Papas Fritas Congeladas 1kg #63,TC,TC-R11-C20,207,4.06,lacteos
+SKU-1022,Aceite Vegetal 1L #28,DRY,DRY-R21-C43,215,7.87,abarrotes
+SKU-1023,Jugo Naranja 2L #86,TC,TC-R9-C6,166,3.61,carnes
+SKU-1024,Papas Pringles Original #54,DRY,DRY-R28-C51,125,0.12,juguetes
+SKU-1025,Queso Edam 500g #89,TC,TC-R16-C11,148,4.33,bebidas_frias
+SKU-1026,Libro Novela Ficción #94,DRY,DRY-R15-C40,104,4.18,electro
+SKU-1027,Agua Mineral Fria 1.5L #73,TC,TC-R7-C6,246,0.88,carnes
+SKU-1028,Papas Fritas Congeladas 1kg #36,TC,TC-R25-C12,167,1.33,congelados
+SKU-1029,Cargador Carga Rápida #15,DRY,DRY-R25-C34,478,11.12,libros
+SKU-1030,Papel Toalla x6 #72,DRY,DRY-R9-C57,463,1.79,abarrotes
+SKU-1031,Vacuna Gripe A #63,TC,TC-R19-C6,239,3.76,farmacia
+SKU-1032,Vacuna Gripe A #39,TC,TC-R27-C3,115,1.26,lacteos
+SKU-1033,Atún en Conserva 170g #19,DRY,DRY-R23-C54,32,8.8,electro
+SKU-1034,Aceite Vegetal 1L #88,DRY,DRY-R5-C54,196,2.71,abarrotes
+SKU-1035,Insulina Rápida #44,TC,TC-R21-C6,18,1.75,carnes
+SKU-1036,Galletas de Soda x12 #27,DRY,DRY-R32-C34,239,12.78,limpieza
+SKU-1037,Ch chocolates Milk 100g #38,DRY,DRY-R17-C45,409,9.07,libros
+SKU-1038,Fideos Tallarín 500g #83,DRY,DRY-R20-C58,49,12.83,hogar
+SKU-1039,Sartén Antiadherente 24cm #37,DRY,DRY-R26-C54,147,12.56,hogar
+SKU-1040,Lomo de Cerdo 1kg #41,TC,TC-R28-C9,66,2.23,farmacia
+SKU-1041,Azúcar Rubia 1kg #83,DRY,DRY-R9-C30,27,6.3,hogar
+SKU-1042,Jugo Naranja 2L #64,TC,TC-R15-C15,217,2.03,farmacia
+SKU-1043,Arroz Extra 5kg #67,DRY,DRY-R19-C55,290,3.65,libros
+SKU-1044,Audífonos Bluetooth #37,DRY,DRY-R25-C36,127,5.41,juguetes
+SKU-1045,Papel Toalla x6 #71,DRY,DRY-R28-C45,240,2.47,limpieza
+SKU-1046,Muñeca de Moda #13,DRY,DRY-R5-C54,75,6.98,juguetes
+SKU-1047,Fideos Tallarín 500g #57,DRY,DRY-R16-C54,5,10.57,electro
+SKU-1048,Té Filtrante 100un #98,DRY,DRY-R27-C46,156,7.99,limpieza
+SKU-1049,Bloques de Construcción #79,DRY,DRY-R14-C40,46,11.83,snacks
+SKU-1050,Detergente Líquico 3L #75,DRY,DRY-R30-C48,61,13.33,snacks
+SKU-1051,Jugo Naranja 2L #56,TC,TC-R18-C11,153,0.96,farmacia
+SKU-1052,Aceite Vegetal 1L #27,DRY,DRY-R29-C46,63,3.62,hogar
+SKU-1053,Muñeca de Moda #99,DRY,DRY-R16-C40,394,11.31,juguetes
+SKU-1054,Helado de Vainilla 1L #74,TC,TC-R4-C20,23,2.17,congelados
+SKU-1055,Cerveza Premium 6pack #72,TC,TC-R30-C14,41,2.68,congelados
+SKU-1056,Cuaderno Espiral A4 #78,DRY,DRY-R14-C45,193,6.81,hogar
+SKU-1057,Jabón Lavavajillas 500ml #34,DRY,DRY-R8-C54,205,1.36,juguetes
+SKU-1058,Jabón Lavavajillas 500ml #23,DRY,DRY-R29-C37,361,4.18,snacks
+SKU-1059,Pechuga de Pollo 1kg #76,TC,TC-R6-C18,116,0.21,carnes
+SKU-1060,Azúcar Rubia 1kg #70,DRY,DRY-R11-C48,382,6.33,hogar
+SKU-1061,Aceite Vegetal 1L #18,DRY,DRY-R28-C30,123,13.08,snacks
+SKU-1062,Libro Novela Ficción #52,DRY,DRY-R20-C51,340,8.7,hogar
+SKU-1063,Sartén Antiadherente 24cm #85,DRY,DRY-R26-C57,232,12.64,snacks
+SKU-1064,Azúcar Rubia 1kg #49,DRY,DRY-R5-C39,121,11.85,hogar
+SKU-1065,Detergente Líquico 3L #28,DRY,DRY-R18-C48,494,4.3,snacks
+SKU-1066,Papas Fritas Congeladas 1kg #33,TC,TC-R6-C6,187,4.21,carnes
+SKU-1067,Azúcar Rubia 1kg #30,DRY,DRY-R16-C42,167,1.8,libros
+SKU-1068,Galletas de Soda x12 #57,DRY,DRY-R19-C39,367,3.12,electro
+SKU-1069,Insulina Rápida #28,TC,TC-R21-C11,51,2.3,congelados
+SKU-1070,Papel Toalla x6 #61,DRY,DRY-R23-C55,490,11.54,limpieza
+SKU-1071,Azúcar Rubia 1kg #10,DRY,DRY-R13-C58,174,14.64,snacks
+SKU-1072,Sartén Antiadherente 24cm #47,DRY,DRY-R9-C37,378,12.0,snacks
+SKU-1073,Ch chocolates Milk 100g #98,DRY,DRY-R34-C34,465,10.99,electro
+SKU-1074,Queso Edam 500g #49,TC,TC-R17-C2,225,2.07,bebidas_frias
+SKU-1075,Yogurt Natural 1kg #51,TC,TC-R34-C2,59,3.08,congelados
+SKU-1076,Galletas de Soda x12 #35,DRY,DRY-R29-C30,439,1.3,abarrotes
+SKU-1077,Jabón Lavavajillas 500ml #75,DRY,DRY-R32-C49,167,2.96,juguetes
+SKU-1078,Detergente Líquico 3L #95,DRY,DRY-R27-C48,371,5.99,hogar
+SKU-1079,Té Filtrante 100un #57,DRY,DRY-R17-C30,184,4.31,snacks
+SKU-1080,Yogurt Natural 1kg #37,TC,TC-R30-C20,199,4.45,farmacia
+SKU-1081,Cargador Carga Rápida #46,DRY,DRY-R28-C37,464,12.09,libros
+SKU-1082,Azúcar Rubia 1kg #85,DRY,DRY-R5-C34,160,2.2,electro
+SKU-1083,Toalla de Baño #52,DRY,DRY-R14-C33,307,14.0,libros
+SKU-1084,Papel Toalla x6 #62,DRY,DRY-R23-C43,289,6.25,limpieza
+SKU-1085,Azúcar Rubia 1kg #35,DRY,DRY-R21-C39,153,12.49,hogar
+SKU-1086,Papas Pringles Original #84,DRY,DRY-R27-C45,383,7.44,limpieza
+SKU-1087,Papel Toalla x6 #29,DRY,DRY-R11-C43,332,4.54,limpieza
+SKU-1088,Arroz Extra 5kg #93,DRY,DRY-R8-C45,256,6.29,electro
+SKU-1089,Atún en Conserva 170g #13,DRY,DRY-R10-C36,257,11.48,juguetes
+SKU-1090,Bloques de Construcción #56,DRY,DRY-R34-C54,449,8.51,limpieza
+SKU-1091,Queso Edam 500g #57,TC,TC-R5-C15,14,3.69,farmacia
+SKU-1092,Muñeca de Moda #17,DRY,DRY-R8-C37,454,4.83,abarrotes
+SKU-1093,Fideos Tallarín 500g #16,DRY,DRY-R23-C43,330,5.45,snacks
+SKU-1094,Detergente Líquico 3L #47,DRY,DRY-R13-C45,484,7.97,snacks
+SKU-1095,Salchicha Viena x10 #22,TC,TC-R21-C17,149,3.79,carnes
+SKU-1096,Papas Fritas Congeladas 1kg #44,TC,TC-R6-C20,102,3.52,congelados
+SKU-1097,Insulina Rápida #28,TC,TC-R10-C2,82,0.77,bebidas_frias
+SKU-1098,Bebida Energética 500ml #53,TC,TC-R31-C5,49,0.6,farmacia
+SKU-1099,Aceite Vegetal 1L #81,DRY,DRY-R21-C57,369,12.7,libros
+SKU-1100,Arroz Extra 5kg #63,DRY,DRY-R11-C54,64,13.74,libros
+SKU-1101,Sartén Antiadherente 24cm #54,DRY,DRY-R4-C46,76,10.38,limpieza
+SKU-1102,Toalla de Baño #53,DRY,DRY-R6-C39,19,10.66,hogar
+SKU-1103,Atún en Conserva 170g #26,DRY,DRY-R4-C37,162,10.34,limpieza
+SKU-1104,Yogurt Natural 1kg #64,TC,TC-R9-C20,38,3.84,carnes
+SKU-1105,Bebida Energética 500ml #15,TC,TC-R18-C6,213,0.63,farmacia
+SKU-1106,Detergente Líquico 3L #70,DRY,DRY-R9-C36,27,13.63,hogar
+SKU-1107,Queso Edam 500g #25,TC,TC-R23-C17,240,1.11,lacteos
+SKU-1108,Leche UHT 1L #21,TC,TC-R21-C5,81,4.24,congelados
+SKU-1109,Café Instantáneo 200g #30,DRY,DRY-R25-C55,318,11.72,snacks
+SKU-1110,Yogurt Natural 1kg #22,TC,TC-R18-C23,13,2.93,bebidas_frias
+SKU-1111,Aceite Vegetal 1L #46,DRY,DRY-R5-C39,280,13.53,juguetes
+SKU-1112,Pechuga de Pollo 1kg #74,TC,TC-R4-C24,103,3.57,lacteos
+SKU-1113,Cargador Carga Rápida #96,DRY,DRY-R28-C34,186,2.75,abarrotes
+SKU-1114,Aceite Vegetal 1L #75,DRY,DRY-R5-C42,394,6.14,electro
+SKU-1115,Cargador Carga Rápida #24,DRY,DRY-R15-C57,395,2.08,limpieza
+SKU-1116,Jugo Naranja 2L #20,TC,TC-R28-C9,108,2.52,congelados
+SKU-1117,Papas Fritas Congeladas 1kg #97,TC,TC-R30-C23,151,2.28,bebidas_frias
+SKU-1118,Audífonos Bluetooth #34,DRY,DRY-R18-C33,415,13.43,libros
+SKU-1119,Café Instantáneo 200g #32,DRY,DRY-R18-C30,256,14.98,juguetes
+SKU-1120,Cargador Carga Rápida #76,DRY,DRY-R4-C34,207,1.83,electro
+SKU-1121,Arroz Extra 5kg #31,DRY,DRY-R13-C33,106,5.49,hogar
+SKU-1122,Suero Fisiológico #25,TC,TC-R7-C8,195,4.21,bebidas_frias
+SKU-1123,Muñeca de Moda #85,DRY,DRY-R23-C43,415,11.36,libros
+SKU-1124,Café Instantáneo 200g #70,DRY,DRY-R13-C51,266,14.81,electro
+SKU-1125,Queso Edam 500g #25,TC,TC-R17-C8,69,2.5,farmacia
+SKU-1126,Papel Toalla x6 #22,DRY,DRY-R31-C31,260,12.46,abarrotes
+SKU-1127,Té Filtrante 100un #87,DRY,DRY-R20-C46,323,2.33,abarrotes
+SKU-1128,Jabón Lavavajillas 500ml #94,DRY,DRY-R15-C57,410,11.53,libros
+SKU-1129,Cuaderno Espiral A4 #73,DRY,DRY-R14-C55,282,7.6,snacks
+SKU-1130,Leche UHT 1L #14,TC,TC-R22-C12,40,4.41,bebidas_frias
+SKU-1131,Suero Fisiológico #66,TC,TC-R7-C14,55,0.28,congelados
+SKU-1132,Papas Pringles Original #31,DRY,DRY-R15-C55,164,6.49,libros
+SKU-1133,Arroz Extra 5kg #82,DRY,DRY-R14-C55,355,9.92,electro
+SKU-1134,Sartén Antiadherente 24cm #81,DRY,DRY-R20-C37,205,7.62,electro
+SKU-1135,Suero Fisiológico #88,TC,TC-R33-C18,82,1.83,bebidas_frias
+SKU-1136,Jugo Naranja 2L #26,TC,TC-R28-C23,217,1.9,lacteos
+SKU-1137,Libro Novela Ficción #53,DRY,DRY-R17-C49,181,1.51,limpieza
+SKU-1138,Café Instantáneo 200g #17,DRY,DRY-R23-C42,336,3.75,electro
+SKU-1139,Yogurt Natural 1kg #49,TC,TC-R4-C5,15,1.75,lacteos
+SKU-1140,Cargador Carga Rápida #94,DRY,DRY-R32-C51,466,8.54,limpieza
+SKU-1141,Sartén Antiadherente 24cm #85,DRY,DRY-R28-C30,198,14.79,limpieza
+SKU-1142,Muñeca de Moda #22,DRY,DRY-R11-C55,350,1.55,snacks
+SKU-1143,Vacuna Gripe A #31,TC,TC-R30-C17,121,1.57,farmacia
+SKU-1144,Pechuga de Pollo 1kg #46,TC,TC-R25-C8,156,0.33,lacteos
+SKU-1145,Bloques de Construcción #21,DRY,DRY-R15-C34,144,8.9,abarrotes
+SKU-1146,Agua Mineral Fria 1.5L #64,TC,TC-R26-C6,29,1.8,bebidas_frias
+SKU-1147,Toalla de Baño #48,DRY,DRY-R13-C52,165,9.97,snacks
+SKU-1148,Helado de Vainilla 1L #89,TC,TC-R6-C15,205,2.32,farmacia
+SKU-1149,Libro Novela Ficción #76,DRY,DRY-R22-C39,114,8.67,limpieza
+SKU-1150,Cargador Carga Rápida #44,DRY,DRY-R29-C57,441,12.14,libros
+SKU-1151,Muñeca de Moda #90,DRY,DRY-R7-C33,191,7.86,electro
+SKU-1152,Azúcar Rubia 1kg #97,DRY,DRY-R22-C45,215,12.67,abarrotes
+SKU-1153,Pechuga de Pollo 1kg #62,TC,TC-R26-C8,175,4.14,lacteos
+SKU-1154,Lomo de Cerdo 1kg #61,TC,TC-R10-C8,59,0.66,bebidas_frias
+SKU-1155,Cerveza Premium 6pack #72,TC,TC-R31-C15,118,4.96,congelados
+SKU-1156,Aceite Vegetal 1L #30,DRY,DRY-R23-C43,137,2.09,limpieza
+SKU-1157,Cuaderno Espiral A4 #80,DRY,DRY-R10-C39,26,9.68,snacks
+SKU-1158,Papel Toalla x6 #17,DRY,DRY-R33-C33,157,4.74,electro
+SKU-1159,Café Instantáneo 200g #95,DRY,DRY-R9-C34,434,5.98,electro
+SKU-1160,Atún en Conserva 170g #24,DRY,DRY-R25-C55,272,14.0,abarrotes
+SKU-1161,Toalla de Baño #42,DRY,DRY-R20-C55,126,13.27,hogar
+SKU-1162,Ch chocolates Milk 100g #52,DRY,DRY-R28-C49,385,12.1,libros
+SKU-1163,Pechuga de Pollo 1kg #28,TC,TC-R31-C3,80,0.96,farmacia
+SKU-1164,Muñeca de Moda #17,DRY,DRY-R14-C55,363,8.03,snacks
+SKU-1165,Set de Cubiertos x24 #64,DRY,DRY-R28-C54,498,10.26,snacks
+SKU-1166,Insulina Rápida #70,TC,TC-R23-C20,88,1.9,carnes
+SKU-1167,Jugo Naranja 2L #94,TC,TC-R7-C23,186,4.71,bebidas_frias
+SKU-1168,Atún en Conserva 170g #42,DRY,DRY-R19-C58,332,5.8,juguetes
+SKU-1169,Cuaderno Espiral A4 #25,DRY,DRY-R31-C57,444,13.01,snacks
+SKU-1170,Té Filtrante 100un #42,DRY,DRY-R23-C45,426,1.4,limpieza
+SKU-1171,Aceite Vegetal 1L #30,DRY,DRY-R19-C52,455,9.49,snacks
+SKU-1172,Audífonos Bluetooth #14,DRY,DRY-R25-C43,426,13.0,juguetes
+SKU-1173,Sartén Antiadherente 24cm #62,DRY,DRY-R27-C46,453,10.77,electro
+SKU-1174,Fideos Tallarín 500g #99,DRY,DRY-R10-C43,185,7.62,limpieza
+SKU-1175,Set de Cubiertos x24 #51,DRY,DRY-R4-C54,395,10.44,juguetes
+SKU-1176,Cerveza Premium 6pack #92,TC,TC-R16-C5,61,0.12,carnes
+SKU-1177,Muñeca de Moda #20,DRY,DRY-R32-C34,269,2.41,snacks
+SKU-1178,Libro Novela Ficción #26,DRY,DRY-R19-C51,168,11.9,libros
+SKU-1179,Azúcar Rubia 1kg #43,DRY,DRY-R7-C39,428,10.33,libros
+SKU-1180,Pechuga de Pollo 1kg #20,TC,TC-R14-C12,110,1.9,congelados
+SKU-1181,Muñeca de Moda #38,DRY,DRY-R27-C30,477,14.22,libros
+SKU-1182,Libro Novela Ficción #39,DRY,DRY-R8-C34,106,14.61,hogar
+SKU-1183,Jugo Naranja 2L #61,TC,TC-R32-C17,76,2.2,carnes
+SKU-1184,Salchicha Viena x10 #82,TC,TC-R6-C5,144,0.17,congelados
+SKU-1185,Cuaderno Espiral A4 #73,DRY,DRY-R9-C36,109,3.41,electro
+SKU-1186,Papas Fritas Congeladas 1kg #73,TC,TC-R27-C11,229,0.74,congelados
+SKU-1187,Papas Fritas Congeladas 1kg #96,TC,TC-R14-C6,114,2.15,carnes
+SKU-1188,Papas Pringles Original #43,DRY,DRY-R14-C42,469,9.28,limpieza
+SKU-1189,Cerveza Premium 6pack #20,TC,TC-R9-C2,233,2.4,bebidas_frias
+SKU-1190,Pechuga de Pollo 1kg #59,TC,TC-R19-C20,162,2.17,farmacia
+SKU-1191,Jugo Naranja 2L #16,TC,TC-R31-C9,130,4.66,lacteos
+SKU-1192,Cuaderno Espiral A4 #86,DRY,DRY-R22-C31,263,0.13,hogar
+SKU-1193,Té Filtrante 100un #95,DRY,DRY-R6-C49,461,2.03,snacks
+SKU-1194,Fideos Tallarín 500g #43,DRY,DRY-R34-C37,481,7.58,hogar
+SKU-1195,Mantequilla con sal 200g #21,TC,TC-R22-C9,120,3.58,farmacia
+SKU-1196,Vacuna Gripe A #15,TC,TC-R11-C5,223,2.55,lacteos
+SKU-1197,Bebida Energética 500ml #46,TC,TC-R33-C24,166,4.4,congelados
+SKU-1198,Toalla de Baño #50,DRY,DRY-R16-C52,166,13.4,snacks
+SKU-1199,Azúcar Rubia 1kg #81,DRY,DRY-R20-C52,81,0.85,electro
+SKU-1200,Jugo Naranja 2L #70,TC,TC-R22-C8,129,0.9,carnes
+SKU-1201,Detergente Líquico 3L #66,DRY,DRY-R22-C48,292,14.83,electro
+SKU-1202,Arroz Extra 5kg #28,DRY,DRY-R15-C36,109,5.28,electro
+SKU-1203,Fideos Tallarín 500g #75,DRY,DRY-R23-C43,344,8.47,abarrotes
+SKU-1204,Papel Toalla x6 #77,DRY,DRY-R15-C39,44,6.28,hogar
+SKU-1205,Queso Edam 500g #52,TC,TC-R18-C2,184,1.49,farmacia
+SKU-1206,Queso Edam 500g #51,TC,TC-R26-C5,127,0.24,congelados
+SKU-1207,Sartén Antiadherente 24cm #68,DRY,DRY-R19-C43,7,8.93,juguetes
+SKU-1208,Cerveza Premium 6pack #51,TC,TC-R32-C20,242,5.0,lacteos
+SKU-1209,Azúcar Rubia 1kg #37,DRY,DRY-R26-C31,149,12.03,hogar
+SKU-1210,Yogurt Natural 1kg #80,TC,TC-R23-C17,112,1.97,lacteos
+SKU-1211,Suero Fisiológico #21,TC,TC-R15-C2,51,4.28,carnes
+SKU-1212,Papas Fritas Congeladas 1kg #92,TC,TC-R13-C21,49,4.78,farmacia
+SKU-1213,Bebida Energética 500ml #49,TC,TC-R33-C24,43,3.46,farmacia
+SKU-1214,Insulina Rápida #75,TC,TC-R20-C6,236,2.5,lacteos
+SKU-1215,Bebida Energética 500ml #21,TC,TC-R15-C21,104,2.17,congelados
+SKU-1216,Libro Novela Ficción #64,DRY,DRY-R13-C34,179,0.65,electro
+SKU-1217,Atún en Conserva 170g #92,DRY,DRY-R18-C37,274,13.96,juguetes
+SKU-1218,Jabón Lavavajillas 500ml #47,DRY,DRY-R20-C54,469,6.59,hogar
+SKU-1219,Azúcar Rubia 1kg #26,DRY,DRY-R22-C45,272,12.63,snacks
+SKU-1220,Detergente Líquico 3L #80,DRY,DRY-R26-C33,267,13.76,hogar
+SKU-1221,Bebida Energética 500ml #22,TC,TC-R9-C14,155,3.34,farmacia
+SKU-1222,Galletas de Soda x12 #84,DRY,DRY-R31-C33,13,11.54,snacks
+SKU-1223,Salchicha Viena x10 #33,TC,TC-R31-C23,31,2.03,farmacia
+SKU-1224,Papas Pringles Original #50,DRY,DRY-R5-C54,235,11.37,juguetes
+SKU-1225,Ch chocolates Milk 100g #33,DRY,DRY-R18-C40,387,2.82,snacks
+SKU-1226,Cuaderno Espiral A4 #23,DRY,DRY-R14-C52,7,8.04,snacks
+SKU-1227,Salchicha Viena x10 #93,TC,TC-R17-C14,113,2.35,lacteos
+SKU-1228,Bloques de Construcción #72,DRY,DRY-R26-C45,320,9.3,juguetes
+SKU-1229,Papas Fritas Congeladas 1kg #21,TC,TC-R10-C5,58,0.76,farmacia
+SKU-1230,Pechuga de Pollo 1kg #13,TC,TC-R26-C6,47,2.46,lacteos
+SKU-1231,Libro Novela Ficción #78,DRY,DRY-R27-C39,399,1.34,electro
+SKU-1232,Audífonos Bluetooth #12,DRY,DRY-R7-C36,83,2.53,electro
+SKU-1233,Sartén Antiadherente 24cm #70,DRY,DRY-R26-C30,304,12.9,electro
+SKU-1234,Suero Fisiológico #16,TC,TC-R31-C9,171,0.14,congelados
+SKU-1235,Audífonos Bluetooth #73,DRY,DRY-R21-C58,23,14.99,electro
+SKU-1236,Toalla de Baño #85,DRY,DRY-R10-C55,36,3.52,electro
+SKU-1237,Muñeca de Moda #50,DRY,DRY-R20-C58,462,1.0,electro
+SKU-1238,Arroz Extra 5kg #73,DRY,DRY-R11-C48,228,6.75,electro
+SKU-1239,Pechuga de Pollo 1kg #70,TC,TC-R6-C11,139,2.25,congelados
+SKU-1240,Cerveza Premium 6pack #26,TC,TC-R22-C24,192,1.54,congelados
+SKU-1241,Insulina Rápida #70,TC,TC-R7-C23,51,4.86,farmacia
+SKU-1242,Jabón Lavavajillas 500ml #95,DRY,DRY-R5-C55,107,1.98,snacks
+SKU-1243,Queso Edam 500g #63,TC,TC-R26-C14,63,1.59,farmacia
+SKU-1244,Café Instantáneo 200g #43,DRY,DRY-R22-C48,94,10.17,limpieza
+SKU-1245,Detergente Líquico 3L #18,DRY,DRY-R32-C46,321,6.49,hogar
+SKU-1246,Lomo de Cerdo 1kg #72,TC,TC-R21-C8,210,4.97,bebidas_frias
+SKU-1247,Helado de Vainilla 1L #29,TC,TC-R5-C24,141,3.48,lacteos
+SKU-1248,Detergente Líquico 3L #66,DRY,DRY-R8-C54,391,14.44,limpieza
+SKU-1249,Queso Edam 500g #81,TC,TC-R27-C2,52,2.59,lacteos
+SKU-1250,Aceite Vegetal 1L #56,DRY,DRY-R20-C37,367,10.94,libros
+SKU-1251,Sartén Antiadherente 24cm #22,DRY,DRY-R17-C37,176,9.72,hogar
+SKU-1252,Aceite Vegetal 1L #66,DRY,DRY-R25-C51,8,11.55,limpieza
+SKU-1253,Vacuna Gripe A #46,TC,TC-R32-C14,78,0.94,farmacia
+SKU-1254,Insulina Rápida #90,TC,TC-R27-C18,202,1.3,farmacia
+SKU-1255,Atún en Conserva 170g #27,DRY,DRY-R8-C52,214,6.23,electro
+SKU-1256,Toalla de Baño #97,DRY,DRY-R28-C48,231,14.16,libros
+SKU-1257,Yogurt Natural 1kg #20,TC,TC-R34-C9,207,1.64,lacteos
+SKU-1258,Suero Fisiológico #14,TC,TC-R25-C18,48,4.62,lacteos
+SKU-1259,Libro Novela Ficción #94,DRY,DRY-R15-C57,219,14.59,limpieza
+SKU-1260,Set de Cubiertos x24 #48,DRY,DRY-R6-C46,9,13.64,juguetes
+SKU-1261,Bloques de Construcción #28,DRY,DRY-R11-C51,110,6.72,hogar
+SKU-1262,Bloques de Construcción #93,DRY,DRY-R22-C52,459,10.48,hogar
+SKU-1263,Té Filtrante 100un #35,DRY,DRY-R23-C45,280,1.31,juguetes
+SKU-1264,Papas Fritas Congeladas 1kg #37,TC,TC-R23-C3,89,2.61,carnes
+SKU-1265,Libro Novela Ficción #30,DRY,DRY-R29-C30,412,0.47,libros
+SKU-1266,Atún en Conserva 170g #48,DRY,DRY-R32-C51,61,14.8,snacks
+SKU-1267,Café Instantáneo 200g #43,DRY,DRY-R32-C55,29,5.35,libros
+SKU-1268,Cargador Carga Rápida #48,DRY,DRY-R9-C30,125,6.82,limpieza
+SKU-1269,Muñeca de Moda #90,DRY,DRY-R30-C57,124,12.68,hogar
+SKU-1270,Mantequilla con sal 200g #58,TC,TC-R9-C15,36,3.71,congelados
+SKU-1271,Pechuga de Pollo 1kg #56,TC,TC-R4-C14,192,0.58,bebidas_frias
+SKU-1272,Jabón Lavavajillas 500ml #21,DRY,DRY-R9-C33,71,6.4,electro
+SKU-1273,Jabón Lavavajillas 500ml #57,DRY,DRY-R21-C57,291,6.07,electro
+SKU-1274,Galletas de Soda x12 #84,DRY,DRY-R22-C55,230,9.57,electro
+SKU-1275,Audífonos Bluetooth #30,DRY,DRY-R6-C37,253,7.61,electro
+SKU-1276,Toalla de Baño #77,DRY,DRY-R8-C36,238,10.43,abarrotes
+SKU-1277,Fideos Tallarín 500g #81,DRY,DRY-R5-C49,65,13.83,juguetes
+SKU-1278,Arroz Extra 5kg #25,DRY,DRY-R5-C49,25,8.6,electro
+SKU-1279,Café Instantáneo 200g #49,DRY,DRY-R10-C49,253,4.58,limpieza
+SKU-1280,Mantequilla con sal 200g #85,TC,TC-R17-C12,238,0.34,carnes
+SKU-1281,Pechuga de Pollo 1kg #33,TC,TC-R18-C23,10,3.72,congelados
+SKU-1282,Yogurt Natural 1kg #15,TC,TC-R15-C12,89,2.46,congelados
+SKU-1283,Té Filtrante 100un #70,DRY,DRY-R25-C36,263,11.44,snacks
+SKU-1284,Cargador Carga Rápida #95,DRY,DRY-R30-C52,377,2.28,libros
+SKU-1285,Bebida Energética 500ml #59,TC,TC-R7-C8,96,4.51,bebidas_frias
+SKU-1286,Cargador Carga Rápida #45,DRY,DRY-R7-C34,367,13.0,juguetes
+SKU-1287,Queso Edam 500g #92,TC,TC-R31-C15,168,0.52,congelados
+SKU-1288,Detergente Líquico 3L #82,DRY,DRY-R17-C57,248,2.88,libros
+SKU-1289,Arroz Extra 5kg #94,DRY,DRY-R28-C57,14,2.74,limpieza
+SKU-1290,Lomo de Cerdo 1kg #84,TC,TC-R30-C12,146,0.51,carnes
+SKU-1291,Muñeca de Moda #15,DRY,DRY-R15-C55,16,12.94,electro
+SKU-1292,Bebida Energética 500ml #13,TC,TC-R9-C24,107,2.69,carnes
+SKU-1293,Queso Edam 500g #79,TC,TC-R34-C5,56,1.5,lacteos
+SKU-1294,Mantequilla con sal 200g #49,TC,TC-R9-C12,25,3.43,lacteos
+SKU-1295,Fideos Tallarín 500g #13,DRY,DRY-R5-C33,55,4.51,snacks
+SKU-1296,Vacuna Gripe A #43,TC,TC-R23-C11,240,4.71,farmacia
+SKU-1297,Lomo de Cerdo 1kg #86,TC,TC-R15-C17,140,1.26,carnes
+SKU-1298,Arroz Extra 5kg #44,DRY,DRY-R8-C33,288,4.81,electro
+SKU-1299,Papel Toalla x6 #62,DRY,DRY-R11-C42,14,13.71,electro
+SKU-1300,Queso Edam 500g #41,TC,TC-R18-C21,211,2.82,bebidas_frias
+SKU-1301,Bebida Energética 500ml #67,TC,TC-R18-C3,138,4.25,bebidas_frias
+SKU-1302,Insulina Rápida #79,TC,TC-R34-C5,147,3.93,carnes
+SKU-1303,Cargador Carga Rápida #15,DRY,DRY-R5-C30,497,12.2,hogar
+SKU-1304,Libro Novela Ficción #31,DRY,DRY-R4-C30,476,0.95,snacks
+SKU-1305,Galletas de Soda x12 #97,DRY,DRY-R17-C49,436,14.99,hogar
+SKU-1306,Toalla de Baño #46,DRY,DRY-R22-C31,278,2.46,hogar
+SKU-1307,Jabón Lavavajillas 500ml #60,DRY,DRY-R14-C36,376,12.47,snacks
+SKU-1308,Audífonos Bluetooth #36,DRY,DRY-R29-C55,167,14.36,snacks
+SKU-1309,Libro Novela Ficción #43,DRY,DRY-R34-C52,344,4.13,snacks
+SKU-1310,Aceite Vegetal 1L #68,DRY,DRY-R22-C46,359,0.29,snacks
+SKU-1311,Agua Mineral Fria 1.5L #10,TC,TC-R32-C24,54,0.15,lacteos
+SKU-1312,Sartén Antiadherente 24cm #60,DRY,DRY-R4-C58,453,1.26,juguetes
+SKU-1313,Set de Cubiertos x24 #13,DRY,DRY-R26-C52,185,10.1,limpieza
+SKU-1314,Bloques de Construcción #55,DRY,DRY-R25-C49,398,2.7,electro
+SKU-1315,Arroz Extra 5kg #69,DRY,DRY-R6-C49,232,14.05,limpieza
+SKU-1316,Helado de Vainilla 1L #97,TC,TC-R20-C20,33,1.85,lacteos
+SKU-1317,Papas Pringles Original #38,DRY,DRY-R11-C42,500,14.7,juguetes
+SKU-1318,Agua Mineral Fria 1.5L #87,TC,TC-R26-C6,220,0.13,congelados
+SKU-1319,Galletas de Soda x12 #82,DRY,DRY-R25-C55,287,7.44,limpieza
+SKU-1320,Salchicha Viena x10 #18,TC,TC-R16-C17,26,0.73,bebidas_frias
+SKU-1321,Lomo de Cerdo 1kg #76,TC,TC-R31-C20,59,3.93,bebidas_frias
+SKU-1322,Cuaderno Espiral A4 #78,DRY,DRY-R32-C42,457,10.23,limpieza
+SKU-1323,Libro Novela Ficción #96,DRY,DRY-R30-C31,170,12.82,electro
+SKU-1324,Galletas de Soda x12 #25,DRY,DRY-R13-C57,190,7.03,electro
+SKU-1325,Atún en Conserva 170g #16,DRY,DRY-R29-C43,277,13.78,limpieza
+SKU-1326,Té Filtrante 100un #34,DRY,DRY-R29-C46,297,1.27,limpieza
+SKU-1327,Atún en Conserva 170g #98,DRY,DRY-R33-C51,474,14.37,juguetes
+SKU-1328,Vacuna Gripe A #49,TC,TC-R7-C3,34,3.17,carnes
+SKU-1329,Leche UHT 1L #85,TC,TC-R6-C23,95,3.17,farmacia
+SKU-1330,Arroz Extra 5kg #70,DRY,DRY-R17-C42,431,14.38,abarrotes
+SKU-1331,Lomo de Cerdo 1kg #19,TC,TC-R26-C21,122,3.04,congelados
+SKU-1332,Cargador Carga Rápida #84,DRY,DRY-R16-C36,36,1.33,juguetes
+SKU-1333,Ch chocolates Milk 100g #98,DRY,DRY-R13-C33,36,11.75,electro
+SKU-1334,Detergente Líquico 3L #48,DRY,DRY-R11-C52,351,1.03,electro
+SKU-1335,Papas Fritas Congeladas 1kg #58,TC,TC-R6-C12,202,0.57,lacteos
+SKU-1336,Bloques de Construcción #94,DRY,DRY-R15-C30,242,6.83,libros
+SKU-1337,Bloques de Construcción #22,DRY,DRY-R34-C46,350,9.78,hogar
+SKU-1338,Toalla de Baño #52,DRY,DRY-R29-C39,11,1.66,electro
+SKU-1339,Muñeca de Moda #34,DRY,DRY-R18-C36,136,9.58,limpieza
+SKU-1340,Cerveza Premium 6pack #33,TC,TC-R13-C8,21,0.77,farmacia
+SKU-1341,Bebida Energética 500ml #75,TC,TC-R19-C18,89,3.8,congelados
+SKU-1342,Azúcar Rubia 1kg #28,DRY,DRY-R21-C54,180,4.66,hogar
+SKU-1343,Mantequilla con sal 200g #17,TC,TC-R9-C8,223,2.58,lacteos
+SKU-1344,Audífonos Bluetooth #54,DRY,DRY-R32-C39,332,14.65,limpieza
+SKU-1345,Jabón Lavavajillas 500ml #53,DRY,DRY-R25-C39,360,10.03,libros
+SKU-1346,Bloques de Construcción #98,DRY,DRY-R26-C46,294,12.79,electro
+SKU-1347,Papas Pringles Original #63,DRY,DRY-R22-C46,237,2.48,hogar
+SKU-1348,Sartén Antiadherente 24cm #38,DRY,DRY-R7-C30,359,9.6,limpieza
+SKU-1349,Pechuga de Pollo 1kg #40,TC,TC-R19-C14,218,3.7,bebidas_frias
+SKU-1350,Pechuga de Pollo 1kg #61,TC,TC-R11-C6,11,4.15,farmacia
+SKU-1351,Insulina Rápida #13,TC,TC-R29-C15,84,0.66,lacteos
+SKU-1352,Muñeca de Moda #56,DRY,DRY-R20-C31,106,14.63,juguetes
+SKU-1353,Lomo de Cerdo 1kg #43,TC,TC-R26-C20,226,0.95,carnes
+SKU-1354,Aceite Vegetal 1L #12,DRY,DRY-R10-C39,471,12.65,abarrotes
+SKU-1355,Suero Fisiológico #93,TC,TC-R32-C21,96,4.44,carnes
+SKU-1356,Cargador Carga Rápida #40,DRY,DRY-R5-C49,343,12.15,snacks
+SKU-1357,Bebida Energética 500ml #18,TC,TC-R6-C5,246,0.81,bebidas_frias
+SKU-1358,Pechuga de Pollo 1kg #78,TC,TC-R25-C11,91,3.5,carnes
+SKU-1359,Atún en Conserva 170g #15,DRY,DRY-R25-C39,155,12.82,juguetes
+SKU-1360,Atún en Conserva 170g #16,DRY,DRY-R31-C43,440,13.1,snacks
+SKU-1361,Sartén Antiadherente 24cm #36,DRY,DRY-R31-C33,409,11.78,hogar
+SKU-1362,Fideos Tallarín 500g #75,DRY,DRY-R26-C49,335,11.28,limpieza
+SKU-1363,Sartén Antiadherente 24cm #76,DRY,DRY-R16-C54,369,2.73,snacks
+SKU-1364,Agua Mineral Fria 1.5L #70,TC,TC-R27-C8,173,2.95,farmacia
+SKU-1365,Libro Novela Ficción #14,DRY,DRY-R14-C40,108,3.33,hogar
+SKU-1366,Té Filtrante 100un #37,DRY,DRY-R29-C45,198,6.4,abarrotes
+SKU-1367,Café Instantáneo 200g #42,DRY,DRY-R17-C58,389,1.32,libros
+SKU-1368,Insulina Rápida #39,TC,TC-R13-C17,141,0.3,farmacia
+SKU-1369,Cargador Carga Rápida #69,DRY,DRY-R11-C52,416,6.16,electro
+SKU-1370,Té Filtrante 100un #13,DRY,DRY-R14-C39,140,6.65,snacks
+SKU-1371,Jabón Lavavajillas 500ml #47,DRY,DRY-R26-C55,334,7.72,snacks
+SKU-1372,Lomo de Cerdo 1kg #22,TC,TC-R6-C5,19,0.45,congelados
+SKU-1373,Aceite Vegetal 1L #96,DRY,DRY-R23-C46,386,3.79,snacks
+SKU-1374,Galletas de Soda x12 #34,DRY,DRY-R31-C36,390,14.98,juguetes
+SKU-1375,Galletas de Soda x12 #11,DRY,DRY-R21-C45,182,4.26,hogar
+SKU-1376,Té Filtrante 100un #84,DRY,DRY-R17-C30,267,7.11,electro
+SKU-1377,Té Filtrante 100un #39,DRY,DRY-R4-C42,112,10.86,abarrotes
+SKU-1378,Muñeca de Moda #80,DRY,DRY-R20-C54,241,10.85,hogar
+SKU-1379,Vacuna Gripe A #34,TC,TC-R21-C12,188,3.87,lacteos
+SKU-1380,Cargador Carga Rápida #81,DRY,DRY-R5-C31,300,5.65,electro
+SKU-1381,Papel Toalla x6 #73,DRY,DRY-R20-C48,219,5.13,snacks
+SKU-1382,Té Filtrante 100un #98,DRY,DRY-R34-C57,305,4.53,libros
+SKU-1383,Mantequilla con sal 200g #29,TC,TC-R30-C9,214,2.88,lacteos
+SKU-1384,Muñeca de Moda #60,DRY,DRY-R18-C49,205,3.1,hogar
+SKU-1385,Pechuga de Pollo 1kg #70,TC,TC-R32-C3,125,1.71,farmacia
+SKU-1386,Jabón Lavavajillas 500ml #31,DRY,DRY-R25-C34,95,10.14,snacks
+SKU-1387,Agua Mineral Fria 1.5L #13,TC,TC-R13-C6,243,1.08,bebidas_frias
+SKU-1388,Aceite Vegetal 1L #39,DRY,DRY-R13-C45,40,9.91,snacks
+SKU-1389,Toalla de Baño #11,DRY,DRY-R5-C39,470,4.94,snacks
+SKU-1390,Arroz Extra 5kg #26,DRY,DRY-R33-C57,385,6.31,abarrotes
+SKU-1391,Mantequilla con sal 200g #36,TC,TC-R18-C9,191,2.22,carnes
+SKU-1392,Bloques de Construcción #83,DRY,DRY-R33-C45,262,8.83,abarrotes
+SKU-1393,Galletas de Soda x12 #35,DRY,DRY-R11-C30,233,14.87,electro
+SKU-1394,Lomo de Cerdo 1kg #77,TC,TC-R29-C9,235,4.56,farmacia
+SKU-1395,Muñeca de Moda #15,DRY,DRY-R10-C34,456,4.35,electro
+SKU-1396,Papas Pringles Original #60,DRY,DRY-R9-C39,96,6.26,snacks
+SKU-1397,Audífonos Bluetooth #68,DRY,DRY-R21-C49,98,13.67,juguetes
+SKU-1398,Té Filtrante 100un #99,DRY,DRY-R20-C31,450,3.63,limpieza
+SKU-1399,Papas Fritas Congeladas 1kg #95,TC,TC-R9-C3,194,3.52,bebidas_frias
+SKU-1400,Audífonos Bluetooth #80,DRY,DRY-R13-C36,44,14.93,electro
+SKU-1401,Ch chocolates Milk 100g #62,DRY,DRY-R32-C52,111,2.51,hogar
+SKU-1402,Papel Toalla x6 #19,DRY,DRY-R13-C54,386,5.75,electro
+SKU-1403,Suero Fisiológico #14,TC,TC-R9-C2,191,1.33,carnes
+SKU-1404,Cuaderno Espiral A4 #69,DRY,DRY-R7-C55,47,6.95,snacks
+SKU-1405,Cargador Carga Rápida #27,DRY,DRY-R23-C54,435,12.32,abarrotes
+SKU-1406,Queso Edam 500g #32,TC,TC-R9-C9,199,0.71,lacteos
+SKU-1407,Leche UHT 1L #96,TC,TC-R29-C8,101,0.85,lacteos
+SKU-1408,Pechuga de Pollo 1kg #66,TC,TC-R13-C20,172,0.33,lacteos
+SKU-1409,Cuaderno Espiral A4 #94,DRY,DRY-R23-C34,162,5.89,juguetes
+SKU-1410,Papel Toalla x6 #16,DRY,DRY-R14-C49,480,11.52,hogar
+SKU-1411,Pechuga de Pollo 1kg #21,TC,TC-R13-C2,13,2.17,carnes
+SKU-1412,Yogurt Natural 1kg #38,TC,TC-R21-C24,223,0.57,carnes
+SKU-1413,Fideos Tallarín 500g #15,DRY,DRY-R25-C51,422,7.71,abarrotes
+SKU-1414,Pechuga de Pollo 1kg #89,TC,TC-R25-C6,111,4.68,bebidas_frias
+SKU-1415,Atún en Conserva 170g #37,DRY,DRY-R27-C34,93,5.38,limpieza
+SKU-1416,Leche UHT 1L #59,TC,TC-R27-C6,26,2.35,congelados
+SKU-1417,Libro Novela Ficción #89,DRY,DRY-R4-C49,458,0.71,snacks
+SKU-1418,Agua Mineral Fria 1.5L #23,TC,TC-R21-C20,246,2.73,congelados
+SKU-1419,Galletas de Soda x12 #22,DRY,DRY-R18-C46,361,14.72,abarrotes
+SKU-1420,Vacuna Gripe A #32,TC,TC-R10-C18,186,3.83,carnes
+SKU-1421,Yogurt Natural 1kg #52,TC,TC-R14-C2,159,3.08,farmacia
+SKU-1422,Libro Novela Ficción #39,DRY,DRY-R28-C55,11,8.83,hogar
+SKU-1423,Queso Edam 500g #49,TC,TC-R9-C8,203,3.72,bebidas_frias
+SKU-1424,Jugo Naranja 2L #27,TC,TC-R22-C11,61,2.54,lacteos
+SKU-1425,Jugo Naranja 2L #40,TC,TC-R29-C20,123,3.03,carnes
+SKU-1426,Azúcar Rubia 1kg #45,DRY,DRY-R10-C46,394,9.67,snacks
+SKU-1427,Papas Fritas Congeladas 1kg #13,TC,TC-R5-C8,94,4.25,farmacia
+SKU-1428,Jugo Naranja 2L #95,TC,TC-R16-C8,188,4.03,carnes
+SKU-1429,Té Filtrante 100un #76,DRY,DRY-R15-C46,327,2.79,hogar
+SKU-1430,Yogurt Natural 1kg #34,TC,TC-R32-C2,46,3.21,farmacia
+SKU-1431,Jabón Lavavajillas 500ml #32,DRY,DRY-R16-C58,482,12.48,abarrotes
+SKU-1432,Yogurt Natural 1kg #64,TC,TC-R29-C20,52,2.39,bebidas_frias
+SKU-1433,Audífonos Bluetooth #32,DRY,DRY-R28-C42,300,4.58,abarrotes
+SKU-1434,Aceite Vegetal 1L #44,DRY,DRY-R34-C54,189,1.25,juguetes
+SKU-1435,Agua Mineral Fria 1.5L #66,TC,TC-R18-C12,198,2.58,carnes
+SKU-1436,Sartén Antiadherente 24cm #12,DRY,DRY-R18-C49,47,6.44,abarrotes
+SKU-1437,Bloques de Construcción #78,DRY,DRY-R16-C37,94,8.32,snacks
+SKU-1438,Papas Fritas Congeladas 1kg #68,TC,TC-R4-C9,165,1.94,farmacia
+SKU-1439,Azúcar Rubia 1kg #70,DRY,DRY-R32-C39,102,2.36,snacks
+SKU-1440,Insulina Rápida #72,TC,TC-R8-C12,250,4.64,bebidas_frias
+SKU-1441,Suero Fisiológico #72,TC,TC-R17-C9,160,3.24,congelados
+SKU-1442,Queso Edam 500g #59,TC,TC-R34-C15,205,0.9,lacteos
+SKU-1443,Café Instantáneo 200g #75,DRY,DRY-R11-C55,193,9.54,snacks
+SKU-1444,Té Filtrante 100un #64,DRY,DRY-R26-C42,22,3.67,juguetes
+SKU-1445,Libro Novela Ficción #96,DRY,DRY-R34-C30,335,10.48,snacks
+SKU-1446,Cerveza Premium 6pack #97,TC,TC-R22-C5,164,1.35,bebidas_frias
+SKU-1447,Fideos Tallarín 500g #11,DRY,DRY-R7-C36,334,11.58,juguetes
+SKU-1448,Té Filtrante 100un #85,DRY,DRY-R30-C33,101,7.8,electro
+SKU-1449,Audífonos Bluetooth #42,DRY,DRY-R25-C45,277,7.53,abarrotes
+SKU-1450,Muñeca de Moda #49,DRY,DRY-R20-C51,478,11.3,electro
+SKU-1451,Arroz Extra 5kg #91,DRY,DRY-R8-C48,142,12.22,limpieza
+SKU-1452,Té Filtrante 100un #99,DRY,DRY-R31-C45,91,0.15,juguetes
+SKU-1453,Arroz Extra 5kg #18,DRY,DRY-R27-C51,340,7.9,limpieza
+SKU-1454,Salchicha Viena x10 #32,TC,TC-R22-C11,44,1.01,farmacia
+SKU-1455,Queso Edam 500g #67,TC,TC-R4-C17,57,4.09,carnes
+SKU-1456,Pechuga de Pollo 1kg #43,TC,TC-R32-C24,122,4.37,carnes
+SKU-1457,Arroz Extra 5kg #91,DRY,DRY-R31-C37,48,1.24,hogar
+SKU-1458,Yogurt Natural 1kg #53,TC,TC-R20-C2,132,2.97,congelados
+SKU-1459,Arroz Extra 5kg #11,DRY,DRY-R8-C33,494,4.03,libros
+SKU-1460,Jugo Naranja 2L #22,TC,TC-R27-C6,11,2.66,bebidas_frias
+SKU-1461,Helado de Vainilla 1L #72,TC,TC-R15-C14,164,3.81,bebidas_frias
+SKU-1462,Cuaderno Espiral A4 #53,DRY,DRY-R7-C46,486,12.26,snacks
+SKU-1463,Suero Fisiológico #88,TC,TC-R4-C3,233,4.88,farmacia
+SKU-1464,Leche UHT 1L #68,TC,TC-R15-C24,195,3.52,lacteos
+SKU-1465,Papel Toalla x6 #87,DRY,DRY-R14-C36,148,13.04,abarrotes
+SKU-1466,Atún en Conserva 170g #57,DRY,DRY-R33-C52,342,9.29,libros
+SKU-1467,Audífonos Bluetooth #94,DRY,DRY-R23-C39,331,0.1,hogar
+SKU-1468,Ch chocolates Milk 100g #12,DRY,DRY-R26-C48,418,13.11,libros
+SKU-1469,Cargador Carga Rápida #39,DRY,DRY-R7-C55,318,6.03,juguetes
+SKU-1470,Audífonos Bluetooth #70,DRY,DRY-R20-C34,155,11.03,snacks
+SKU-1471,Azúcar Rubia 1kg #76,DRY,DRY-R29-C55,259,0.52,juguetes
+SKU-1472,Cuaderno Espiral A4 #80,DRY,DRY-R19-C54,233,2.56,snacks
+SKU-1473,Cuaderno Espiral A4 #79,DRY,DRY-R19-C42,92,3.69,electro
+SKU-1474,Jabón Lavavajillas 500ml #23,DRY,DRY-R15-C52,19,14.9,juguetes
+SKU-1475,Suero Fisiológico #45,TC,TC-R31-C6,180,3.62,congelados
+SKU-1476,Arroz Extra 5kg #95,DRY,DRY-R29-C36,329,13.84,juguetes
+SKU-1477,Ch chocolates Milk 100g #38,DRY,DRY-R13-C33,198,9.68,limpieza
+SKU-1478,Té Filtrante 100un #93,DRY,DRY-R30-C58,228,14.5,juguetes
+SKU-1479,Galletas de Soda x12 #24,DRY,DRY-R11-C45,50,1.36,abarrotes
+SKU-1480,Pechuga de Pollo 1kg #24,TC,TC-R7-C17,228,1.9,bebidas_frias
+SKU-1481,Leche UHT 1L #49,TC,TC-R6-C3,58,2.99,farmacia
+SKU-1482,Ch chocolates Milk 100g #56,DRY,DRY-R18-C36,313,7.82,electro
+SKU-1483,Té Filtrante 100un #11,DRY,DRY-R4-C58,166,12.79,limpieza
+SKU-1484,Lomo de Cerdo 1kg #73,TC,TC-R4-C20,163,2.33,congelados
+SKU-1485,Vacuna Gripe A #49,TC,TC-R31-C14,41,4.95,lacteos
+SKU-1486,Agua Mineral Fria 1.5L #90,TC,TC-R23-C23,84,1.16,bebidas_frias
+SKU-1487,Detergente Líquico 3L #52,DRY,DRY-R16-C37,112,12.43,electro
+SKU-1488,Atún en Conserva 170g #99,DRY,DRY-R30-C31,402,13.85,libros
+SKU-1489,Suero Fisiológico #48,TC,TC-R16-C23,227,3.33,farmacia
+SKU-1490,Suero Fisiológico #53,TC,TC-R18-C12,99,3.42,lacteos
+SKU-1491,Jabón Lavavajillas 500ml #77,DRY,DRY-R34-C43,477,4.27,electro
+SKU-1492,Suero Fisiológico #22,TC,TC-R14-C5,212,1.68,bebidas_frias
+SKU-1493,Detergente Líquico 3L #48,DRY,DRY-R8-C54,300,9.84,libros
+SKU-1494,Papas Fritas Congeladas 1kg #28,TC,TC-R26-C6,201,1.17,farmacia
+SKU-1495,Insulina Rápida #83,TC,TC-R29-C3,229,3.42,lacteos
+SKU-1496,Salchicha Viena x10 #17,TC,TC-R26-C3,131,1.84,farmacia
+SKU-1497,Queso Edam 500g #75,TC,TC-R18-C18,121,1.76,lacteos
+SKU-1498,Té Filtrante 100un #41,DRY,DRY-R9-C31,208,1.83,juguetes
+SKU-1499,Bloques de Construcción #32,DRY,DRY-R11-C49,412,11.65,juguetes
+SKU-1500,Cargador Carga Rápida #93,DRY,DRY-R19-C49,339,4.16,limpieza
